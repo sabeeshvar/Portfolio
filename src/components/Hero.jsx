@@ -8,7 +8,6 @@ import {
   Award,
   Cpu,
   Sparkles,
-  Zap,
 } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from './SocialIcons';
 
@@ -23,16 +22,15 @@ export default function Hero({ onOpenResume }) {
       id="hero"
       className="relative min-h-screen pt-32 pb-20 flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 overflow-hidden"
     >
-      {/* Glow Orbs background backdrop */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-[#00F0FF]/10 rounded-full blur-[140px] pointer-events-none" />
-      <div className="absolute top-1/3 right-1/4 w-[350px] h-[350px] bg-[#B026FF]/10 rounded-full blur-[120px] pointer-events-none" />
+      {/* Subtle single-color cyan background backdrop */}
+      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#00F0FF]/8 rounded-full blur-[160px] pointer-events-none" />
 
       <div className="max-w-5xl mx-auto text-center relative z-10">
         {/* Status Pill */}
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-panel border border-[#00F0FF]/30 text-xs font-mono text-[#00F0FF] mb-8 shadow-[0_0_20px_rgba(0,240,255,0.15)] animate-fadeIn">
-          <span className="w-2 h-2 rounded-full bg-[#39FF14] animate-pulse" />
+        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-panel border border-[#00F0FF]/30 text-xs font-mono text-[#00F0FF] mb-8 shadow-[0_0_20px_rgba(0,240,255,0.1)] animate-fadeIn">
+          <span className="w-2 h-2 rounded-full bg-[#00F0FF] animate-pulse" />
           <span>STATUS: SIH 2026 INNOVATOR & ECE BUILDER</span>
-          <span className="text-gray-500">|</span>
+          <span className="text-gray-600">|</span>
           <span className="text-gray-300">SEM 4 • CGPA 7.8</span>
         </div>
 
@@ -41,27 +39,25 @@ export default function Hero({ onOpenResume }) {
           M. SABEESHVAR <span className="text-[#00F0FF] glow-text-cyan"></span>
         </h1>
 
-        {/* Sub-header Roles Badges */}
+        {/* Sub-header Roles Badges (Unified Cyan & Slate) */}
         <div className="flex flex-wrap justify-center gap-2.5 mb-8 font-mono text-xs sm:text-sm">
           <span className="px-3.5 py-1.5 rounded-lg bg-[#00F0FF]/10 text-[#00F0FF] border border-[#00F0FF]/30 font-semibold">
             ECE ENGINEER
           </span>
-          <span className="px-3.5 py-1.5 rounded-lg bg-[#B026FF]/10 text-[#B026FF] border border-[#B026FF]/30 font-semibold">
+          <span className="px-3.5 py-1.5 rounded-lg bg-white/5 text-gray-200 border border-white/10 font-semibold">
             EMBEDDED & IoT BUILDER
           </span>
-          <span className="px-3.5 py-1.5 rounded-lg bg-[#FF2D95]/10 text-[#FF2D95] border border-[#FF2D95]/30 font-semibold">
+          <span className="px-3.5 py-1.5 rounded-lg bg-white/5 text-gray-200 border border-white/10 font-semibold">
             AI/ML INNOVATOR
           </span>
-          <span className="px-3.5 py-1.5 rounded-lg bg-[#39FF14]/10 text-[#39FF14] border border-[#39FF14]/30 font-semibold">
+          <span className="px-3.5 py-1.5 rounded-lg bg-[#00F0FF]/10 text-[#00F0FF] border border-[#00F0FF]/30 font-semibold">
             FUTURE ENTREPRENEUR
           </span>
         </div>
 
         {/* Main Headline */}
         <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold font-space text-gray-100 max-w-4xl mx-auto leading-tight mb-6">
-          "Building <span className="text-[#00F0FF]">Intelligent Technology</span> that Connects{' '}
-          <span className="text-[#B026FF]">Electronics</span>, AI and{' '}
-          <span className="text-[#39FF14]">Real-World Impact</span>."
+          "Building <span className="text-[#00F0FF]">Intelligent Technology</span> that Connects Electronics, AI and Real-World Impact."
         </h2>
 
         {/* Detailed Description */}
@@ -73,7 +69,7 @@ export default function Hero({ onOpenResume }) {
         <div className="flex flex-wrap items-center justify-center gap-4 mb-14 font-mono">
           <button
             onClick={() => scrollToSection('projects')}
-            className="px-6 py-3.5 rounded-xl bg-[#00F0FF] text-[#090D14] font-bold text-sm hover:bg-[#00F0FF]/90 transition-all duration-300 shadow-[0_0_25px_rgba(0,240,255,0.4)] flex items-center gap-2.5 cursor-pointer group hover:scale-[1.02]"
+            className="px-6 py-3.5 rounded-xl bg-[#00F0FF] text-[#090D14] font-bold text-sm hover:bg-[#00F0FF]/90 transition-all duration-300 shadow-[0_0_25px_rgba(0,240,255,0.35)] flex items-center gap-2.5 cursor-pointer group hover:scale-[1.02]"
           >
             <span>EXPLORE MY WORK</span>
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -133,11 +129,11 @@ export default function Hero({ onOpenResume }) {
               <span>VSB Engineering College (ECE)</span>
             </div>
             <div className="flex items-center gap-2">
-              <Award className="w-4 h-4 text-[#39FF14]" />
+              <Award className="w-4 h-4 text-[#00F0FF]" />
               <span>7.8 CGPA • Class of 2028</span>
             </div>
             <div className="flex items-center gap-2">
-              <MapPin className="w-4 h-4 text-[#FF2D95]" />
+              <MapPin className="w-4 h-4 text-[#00F0FF]" />
               <span>Tamil Nadu, India</span>
             </div>
           </div>

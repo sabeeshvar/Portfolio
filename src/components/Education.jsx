@@ -10,11 +10,10 @@ export default function Education() {
       metrics: 'CGPA: 7.8 / 10.0',
       period: '2024 — 2028 (Expected)',
       location: 'Tamil Nadu, India',
-      color: '#00F0FF',
       details: [
-        'Core Specialization: Embedded Systems, Sensors, VLSI, and Artificial Intelligence.',
+        'Core Specialization: ESP32, IoT Sensors, 4G Cellular Telemetry, VLSI, and Artificial Intelligence.',
         'Active member of the Electronics Club & collegiate technical symposium participant.',
-        'Developing AgroPulse — Smart Agriculture System as Flagship ECE project.',
+        'Developing THULIR (SIH 2026 Mine Subsidence Warning) and AgroPulse Smart Agriculture Systems.',
       ],
     },
     {
@@ -24,7 +23,6 @@ export default function Education() {
       metrics: 'Scored: 88.8%',
       period: 'Completed',
       location: 'Tamil Nadu, India',
-      color: '#B026FF',
       details: [
         'Advanced Mathematics, Physics, Chemistry, and Computer Science foundation.',
         'Achieved 88.8% aggregate score demonstrating analytical academic excellence.',
@@ -37,7 +35,6 @@ export default function Education() {
       metrics: 'Scored: 88.8%',
       period: 'Completed',
       location: 'Tamil Nadu, India',
-      color: '#39FF14',
       details: [
         'Strong foundational grounding in Science, Mathematics, and Technology basics.',
         'Consistently rated top tier performer with 88.8% score.',
@@ -49,14 +46,14 @@ export default function Education() {
     <section className="py-24 relative z-10 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
       {/* Section Header */}
       <div className="text-center mb-16">
-        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full glass-panel border border-[#B026FF]/30 text-xs font-mono text-[#B026FF] mb-3">
-          <span className="w-1.5 h-1.5 rounded-full bg-[#B026FF]" />
+        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full glass-panel border border-[#00F0FF]/30 text-xs font-mono text-[#00F0FF] mb-3">
+          <span className="w-1.5 h-1.5 rounded-full bg-[#00F0FF]" />
           <span>SECTION // 02</span>
         </div>
         <h2 className="text-3xl sm:text-5xl font-black font-orbitron text-white tracking-tight uppercase">
-          ACADEMIC <span className="text-[#B026FF] glow-text-purple">TIMELINE</span>
+          ACADEMIC <span className="text-[#00F0FF] glow-text-cyan">TIMELINE</span>
         </h2>
-        <div className="w-24 h-1 bg-gradient-to-r from-[#B026FF] to-[#00F0FF] mx-auto mt-4 rounded-full" />
+        <div className="w-24 h-1 bg-[#00F0FF] mx-auto mt-4 rounded-full" />
       </div>
 
       {/* Vertical Timeline */}
@@ -64,27 +61,14 @@ export default function Education() {
         {timeline.map((item, idx) => (
           <div key={idx} className="relative group">
             {/* Glowing Timeline Node */}
-            <div
-              className="absolute -left-[31px] sm:-left-[47px] top-1.5 w-6 h-6 rounded-full bg-[#090D14] border-2 flex items-center justify-center transition-transform duration-300 group-hover:scale-125"
-              style={{
-                borderColor: item.color,
-                boxShadow: `0 0 15px ${item.color}80`,
-              }}
-            >
-              <div className="w-2 h-2 rounded-full" style={{ backgroundColor: item.color }} />
+            <div className="absolute -left-[31px] sm:-left-[47px] top-1.5 w-6 h-6 rounded-full bg-[#090D14] border-2 border-[#00F0FF] flex items-center justify-center transition-transform duration-300 group-hover:scale-125 shadow-[0_0_15px_rgba(0,240,255,0.4)]">
+              <div className="w-2 h-2 rounded-full bg-[#00F0FF]" />
             </div>
 
             {/* Glass Card */}
             <div className="glass-panel p-6 sm:p-8 rounded-2xl border border-white/10 hover:border-white/20 transition-all duration-300 relative">
               <div className="flex flex-wrap items-center justify-between gap-4 mb-3">
-                <span
-                  className="px-3 py-1 rounded-md font-mono text-xs font-bold border"
-                  style={{
-                    backgroundColor: `${item.color}15`,
-                    borderColor: `${item.color}40`,
-                    color: item.color,
-                  }}
-                >
+                <span className="px-3 py-1 rounded-md font-mono text-xs font-bold border bg-[#00F0FF]/10 border-[#00F0FF]/30 text-[#00F0FF]">
                   {item.status}
                 </span>
 
@@ -93,7 +77,7 @@ export default function Education() {
                     <Calendar className="w-3.5 h-3.5" />
                     {item.period}
                   </span>
-                  <span className="flex items-center gap-1 text-[#39FF14] font-bold">
+                  <span className="flex items-center gap-1 text-[#00F0FF] font-bold">
                     <Award className="w-3.5 h-3.5" />
                     {item.metrics}
                   </span>

@@ -3,24 +3,22 @@
 @layer base {
   :root {
     --bg-dark: #090d14;
-    --card-bg: #111724;
+    --card-bg: #111726;
     --cyan-glow: #00f0ff;
-    --purple-glow: #b026ff;
-    --magenta-glow: #ff2d95;
-    --green-glow: #39ff14;
-    --amber-glow: #ffb800;
+    --slate-accent: #94a3b8;
+    --slate-border: rgba(0, 240, 255, 0.15);
   }
 }
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 7px;
 }
 ::-webkit-scrollbar-track {
   background: #090d14;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(0, 240, 255, 0.2);
+  background: rgba(0, 240, 255, 0.25);
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -30,29 +28,17 @@
 /* Circuit Background Grid */
 .circuit-grid-pattern {
   background-image: 
-    linear-gradient(to right, rgba(0, 240, 255, 0.04) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(0, 240, 255, 0.04) 1px, transparent 1px);
+    linear-gradient(to right, rgba(0, 240, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 240, 255, 0.03) 1px, transparent 1px);
   background-size: 40px 40px;
-}
-
-.circuit-dots-pattern {
-  background-image: radial-gradient(rgba(0, 240, 255, 0.12) 1px, transparent 1px);
-  background-size: 24px 24px;
 }
 
 /* Glassmorphism utility */
 .glass-panel {
-  background: rgba(17, 23, 36, 0.7);
+  background: rgba(17, 23, 38, 0.75);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(0, 240, 255, 0.12);
-}
-
-.glass-panel-purple {
-  background: rgba(17, 23, 36, 0.7);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(176, 38, 255, 0.2);
+  border: 1px solid rgba(0, 240, 255, 0.14);
 }
 
 .glass-panel-hover {
@@ -60,19 +46,13 @@
 }
 .glass-panel-hover:hover {
   border-color: rgba(0, 240, 255, 0.4);
-  box-shadow: 0 0 25px rgba(0, 240, 255, 0.15);
+  box-shadow: 0 0 25px rgba(0, 240, 255, 0.12);
   transform: translateY(-3px);
 }
 
 /* Glowing text effects */
 .glow-text-cyan {
-  text-shadow: 0 0 12px rgba(0, 240, 255, 0.6);
-}
-.glow-text-purple {
-  text-shadow: 0 0 12px rgba(176, 38, 255, 0.6);
-}
-.glow-box-cyan {
-  box-shadow: 0 0 20px rgba(0, 240, 255, 0.25);
+  text-shadow: 0 0 12px rgba(0, 240, 255, 0.5);
 }
 
 /* Radar pulse animation */
@@ -93,30 +73,4 @@
 
 .animate-radar {
   animation: radar-pulse 3s infinite ease-in-out;
-}
-
-/* Flow line animation */
-@keyframes flow-dash {
-  to {
-    stroke-dashoffset: -40;
-  }
-}
-
-.animate-flow {
-  stroke-dasharray: 8 4;
-  animation: flow-dash 1.5s linear infinite;
-}
-
-/* Scanner line animation */
-@keyframes scanline {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(1000%);
-  }
-}
-
-.animate-scan {
-  animation: scanline 8s linear infinite;
 }
