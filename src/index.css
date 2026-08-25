@@ -3,9 +3,10 @@
 @layer base {
   :root {
     --bg-dark: #090d14;
-    --card-bg: #111726;
-    --cyan-glow: #00f0ff;
-    --cyan-hover-bg: rgba(0, 240, 255, 0.08);
+    --card-bg: #0d131f;
+    --amber-gold: #ffc700;
+    --cyan-accent: #00f0ff;
+    --amber-hover-bg: rgba(255, 199, 0, 0.08);
     --slate-accent: #94a3b8;
   }
 }
@@ -18,68 +19,71 @@
   background: #090d14;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(0, 240, 255, 0.25);
+  background: rgba(255, 199, 0, 0.3);
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #00f0ff;
+  background: #ffc700;
 }
 
 /* Circuit Background Grid */
 .circuit-grid-pattern {
   background-image: 
-    linear-gradient(to right, rgba(0, 240, 255, 0.03) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(0, 240, 255, 0.03) 1px, transparent 1px);
+    linear-gradient(to right, rgba(255, 199, 0, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 199, 0, 0.03) 1px, transparent 1px);
   background-size: 40px 40px;
 }
 
-/* Glassmorphism card utility with theme-matching electric cyan hover border & subtle cyan glass fill */
+/* Premium Glassmorphism card with Cyber Amber Gold hover border */
 .glass-panel {
-  background: rgba(17, 23, 38, 0.75);
+  background: rgba(13, 19, 31, 0.8);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(0, 240, 255, 0.15);
+  border: 1px solid rgba(255, 199, 0, 0.15);
   transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Cursor hover on box/card: subtle cyan glass tint & electric cyan border glow */
+/* Cursor hover on box/card: soft amber glass tint & glowing amber border */
 .glass-panel:hover {
-  background: rgba(0, 240, 255, 0.08);
-  border-color: #00f0ff;
-  box-shadow: 0 0 25px rgba(0, 240, 255, 0.35);
+  background: rgba(255, 199, 0, 0.08);
+  border-color: #ffc700;
+  box-shadow: 0 0 30px rgba(255, 199, 0, 0.25);
   transform: translateY(-4px);
 }
 
-/* Interactive elements hover */
+/* Interactive node hover */
 .interactive-node-hover {
   transition: all 0.3s ease;
 }
 .interactive-node-hover:hover {
-  border-color: #00f0ff !important;
-  box-shadow: 0 0 20px rgba(0, 240, 255, 0.3) !important;
-  background: rgba(0, 240, 255, 0.1) !important;
-}
-
-/* Floating wave animation for name text letters */
-@keyframes float-wave {
-  0%, 100% {
-    transform: translateY(0px);
-    text-shadow: 0 0 10px rgba(0, 240, 255, 0.3);
-  }
-  50% {
-    transform: translateY(-8px);
-    text-shadow: 0 0 22px rgba(0, 240, 255, 0.8), 0 0 35px rgba(0, 240, 255, 0.4);
-  }
-}
-
-.animate-float-letter {
-  display: inline-block;
-  animation: float-wave 3.2s ease-in-out infinite;
+  border-color: #ffc700 !important;
+  box-shadow: 0 0 20px rgba(255, 199, 0, 0.3) !important;
+  background: rgba(255, 199, 0, 0.1) !important;
 }
 
 /* Glowing text effects */
+.glow-text-gold {
+  text-shadow: 0 0 16px rgba(255, 199, 0, 0.6);
+}
 .glow-text-cyan {
   text-shadow: 0 0 16px rgba(0, 240, 255, 0.6);
+}
+
+/* Blinking cursor for typewriter animation */
+@keyframes blink-cursor {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.typewriter-cursor {
+  display: inline-block;
+  width: 4px;
+  height: 1em;
+  background-color: #ffc700;
+  margin-left: 4px;
+  vertical-align: middle;
+  animation: blink-cursor 0.8s infinite;
+  box-shadow: 0 0 10px #ffc700;
 }
 
 /* Radar pulse animation */
