@@ -78,7 +78,7 @@ export default function AboutMe() {
             <h3 className="text-xl font-bold font-space text-white mb-4 flex items-center gap-2">
               <span className="text-[#00F0FF]">M. Sabeeshvar</span>
               <span className="text-xs font-mono px-2 py-0.5 rounded bg-white/10 text-gray-300">
-                4th Sem ECE
+                5th Sem ECE
               </span>
             </h3>
 
@@ -97,7 +97,7 @@ export default function AboutMe() {
               </div>
               <div>
                 <span className="text-gray-500 block">DEPARTMENT</span>
-                <span className="font-semibold text-[#00F0FF]">ECE (Sem 4)</span>
+                <span className="font-semibold text-[#00F0FF]">ECE (Sem 5)</span>
               </div>
               <div>
                 <span className="text-gray-500 block">ACADEMIC STANDING</span>

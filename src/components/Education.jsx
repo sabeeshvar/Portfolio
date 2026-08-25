@@ -6,7 +6,7 @@ export default function Education() {
     {
       degree: 'B.E. Electronics & Communication Engineering',
       institution: 'VSB Engineering College',
-      status: 'Current Undergrad • 4th Semester',
+      status: 'Current Undergrad • 5th Semester',
       metrics: 'CGPA: 8.0 / 10.0',
       period: '2024 — 2028 (Expected)',
       location: 'Tamil Nadu, India',

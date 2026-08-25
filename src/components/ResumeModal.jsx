@@ -61,7 +61,7 @@ export default function ResumeModal({ onClose }) {
               <div className="p-3.5 rounded-xl bg-white/5 border border-white/10 flex justify-between items-start">
                 <div>
                   <h4 className="font-bold text-white">B.E. Electronics & Communication Engineering</h4>
-                  <p className="text-gray-400 text-xs">VSB Engineering College • 4th Semester (Graduation 2028)</p>
+                  <p className="text-gray-400 text-xs">VSB Engineering College • 5th Semester (Graduation 2028)</p>
                 </div>
                 <span className="font-mono text-[#39FF14] font-bold text-xs">CGPA: 8.0</span>
               </div>

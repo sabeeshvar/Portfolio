@@ -31,7 +31,7 @@ export default function Hero({ onOpenResume }) {
           <span className="w-2 h-2 rounded-full bg-[#00F0FF] animate-pulse" />
           <span>STATUS: SIH 2026 INNOVATOR & ECE BUILDER</span>
           <span className="text-gray-600">|</span>
-          <span className="text-gray-300">SEM 4 • CGPA 8.0</span>
+          <span className="text-gray-300">SEM 5 • CGPA 8.0</span>
         </div>
 
         {/* Big Name Banner */}
