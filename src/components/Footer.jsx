@@ -16,7 +16,7 @@ export default function Footer({ onOpenResume }) {
             <Cpu className="w-5 h-5 text-[#00F0FF]" />
           </div>
           <div>
-            <h3 className="font-orbitron font-bold text-white text-base">SABEESHVAR M.</h3>
+            <h3 className="font-orbitron font-bold text-white text-base">M. SABEESHVAR</h3>
             <p className="text-xs font-mono text-gray-400">"Building technology with purpose."</p>
           </div>
         </div>
@@ -33,11 +33,9 @@ export default function Footer({ onOpenResume }) {
             <GithubIcon className="w-4 h-4" />
           </a>
           <a
-            href="#"
-            onClick={(e) => {
-              e.preventDefault();
-              alert('LinkedIn Profile URL: Replace with your actual LinkedIn link');
-            }}
+            href="https://www.linkedin.com/in/m-sabeeshvar-09145a31b/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="p-2.5 rounded-xl glass-panel text-gray-300 hover:text-[#00F0FF] hover:border-[#00F0FF]/50 transition-colors"
             aria-label="LinkedIn"
           >
@@ -61,7 +59,7 @@ export default function Footer({ onOpenResume }) {
 
         {/* Copyright Right */}
         <div className="text-xs font-mono text-gray-500 text-center md:text-right">
-          <div>© 2026 Sabeeshvar M. All rights reserved.</div>
+          <div>© 2026 M. Sabeeshvar. All rights reserved.</div>
           <div className="text-[10px] text-gray-600 mt-1">
             ECE Engineering Student • VSB Engineering College
           </div>

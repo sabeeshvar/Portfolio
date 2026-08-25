@@ -37,14 +37,16 @@ export default function ResumeModal({ onClose }) {
         <div className="space-y-8 font-sans text-gray-200">
           {/* Header */}
           <div className="border-b border-white/10 pb-6">
-            <h1 className="text-3xl font-black font-orbitron text-white">SABEESHVAR M.</h1>
+            <h1 className="text-3xl font-black font-orbitron text-white">M. SABEESHVAR</h1>
             <p className="text-xs font-mono text-[#00F0FF] mt-1">
-              ECE Engineer • AI Builder • Embedded Systems Enthusiast • Future Entrepreneur
+              ECE Student • Embedded Systems & IoT • AI/ML Anomaly Detection • SIH 2026 Innovator
             </p>
             <div className="flex flex-wrap gap-4 text-xs font-mono text-gray-400 mt-3">
               <span>Email: sabeeshvar@gmail.com</span>
               <span>•</span>
               <span>GitHub: github.com/sabeeshvar</span>
+              <span>•</span>
+              <span>LinkedIn: linkedin.com/in/m-sabeeshvar-09145a31b/</span>
               <span>•</span>
               <span>Location: Tamil Nadu, India</span>
             </div>
@@ -85,22 +87,22 @@ export default function ResumeModal({ onClose }) {
           {/* Key Projects */}
           <div>
             <h3 className="text-sm font-mono text-[#39FF14] font-bold uppercase tracking-wider mb-3 flex items-center gap-2">
-              <Cpu className="w-4 h-4" /> ENGINEERING PROJECTS
+              <Cpu className="w-4 h-4" /> FEATURED INNOVATION PROJECTS
             </h3>
             <div className="space-y-3 text-xs sm:text-sm">
               <div className="p-3.5 rounded-xl bg-white/5 border border-white/10">
-                <h4 className="font-bold text-white">AgroPulse (Flagship Project)</h4>
-                <p className="text-gray-400 text-xs mb-2">Smart Agriculture System Using Sensors & AI</p>
+                <h4 className="font-bold text-white">THULIR (SIH 2026 Major Project)</h4>
+                <p className="text-gray-400 text-xs mb-2">AI-Powered T-Shaped Mine Subsidence Monitoring & Early Warning System</p>
                 <p className="text-gray-300 text-xs">
-                  Built sensor-based field monitoring, AI crop recommendations, smart irrigation guidance, and real-time disease diagnosis dashboard.
+                  Built ESP32 + A7670C 4G solar-powered field nodes (~₹3,035 target prototype cost), streaming deformation data to Flask backend with Isolation Forest anomaly detection & Random Forest risk classification.
                 </p>
               </div>
 
               <div className="p-3.5 rounded-xl bg-white/5 border border-white/10">
-                <h4 className="font-bold text-white">HarvestIQ</h4>
-                <p className="text-gray-400 text-xs mb-2">AI-Powered Smart Agriculture Platform</p>
+                <h4 className="font-bold text-white">AgroPulse</h4>
+                <p className="text-gray-400 text-xs mb-2">Smart Agriculture System Using Sensors & AI</p>
                 <p className="text-gray-300 text-xs">
-                  AI crop recommendation platform with verified seed marketplace and farmer advisories.
+                  Built sensor-based field monitoring, AI crop recommendations, smart irrigation guidance, and real-time disease diagnosis dashboard.
                 </p>
               </div>
             </div>

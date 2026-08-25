@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Cpu, Code, Brain, Globe, Sparkles, Layers, Zap } from 'lucide-react';
+import { Cpu, Code, Brain, Globe, Sparkles, Layers, Zap, Radio } from 'lucide-react';
 
 export default function TechConstellation() {
   const [activeCategory, setActiveCategory] = useState('ALL');
@@ -16,13 +16,43 @@ export default function TechConstellation() {
 
   const skillNodes = [
     {
+      id: 'esp32',
+      name: 'ESP32 Controller',
+      category: 'ELECTRONICS',
+      color: '#39FF14',
+      icon: Cpu,
+      level: 'Primary Controller',
+      connected: ['sensors', 'cellular', 'embedded', 'thulir'],
+      description: 'Dual-core 32-bit microcontroller for real-time sensor polling, power management, and cellular transmission.',
+    },
+    {
+      id: 'cellular',
+      name: 'A7670C 4G Cellular',
+      category: 'ELECTRONICS',
+      color: '#00F0FF',
+      icon: Radio,
+      level: 'Telecommunications',
+      connected: ['esp32', 'flask', 'thulir'],
+      description: 'Cellular modem integration delivering remote telemetry data streams from underground mining zones to cloud backends.',
+    },
+    {
+      id: 'flask',
+      name: 'Flask Backend API',
+      category: 'DEVELOPMENT',
+      color: '#61DAFB',
+      icon: Code,
+      level: 'Python Backend',
+      connected: ['python', 'ai', 'thulir'],
+      description: 'Lightweight REST API backend handling sensor data ingestion, database storage, and AI risk classification triggers.',
+    },
+    {
       id: 'java',
       name: 'Java',
       category: 'PROGRAMMING',
       color: '#F80000',
       icon: Code,
       level: 'Proficient',
-      connected: ['python', 'webdev', 'ai'],
+      connected: ['python', 'webdev'],
       description: 'Object-oriented programming, data structures, algorithm design, and core software engineering fundamentals.',
     },
     {
@@ -32,8 +62,8 @@ export default function TechConstellation() {
       color: '#3776AB',
       icon: Code,
       level: 'Certified & Active',
-      connected: ['ai', 'data', 'smartagri'],
-      description: 'Primary language for data manipulation, AI modeling, sensor data processing, and scripting.',
+      connected: ['flask', 'ai', 'data', 'thulir'],
+      description: 'Primary language for data manipulation, AI modeling, sensor data processing, and Flask backend APIs.',
     },
     {
       id: 'ai',
@@ -42,8 +72,8 @@ export default function TechConstellation() {
       color: '#00F0FF',
       icon: Brain,
       level: 'Core Focus',
-      connected: ['python', 'data', 'ml', 'smartagri'],
-      description: 'Intelligent decision support engines, computer vision for pathogen diagnosis, and predictive modeling.',
+      connected: ['python', 'data', 'ml', 'thulir', 'smartagri'],
+      description: 'Unsupervised anomaly detection (Isolation Forest) & risk classification (Random Forest) for mine safety and crop advisories.',
     },
     {
       id: 'data',
@@ -53,17 +83,17 @@ export default function TechConstellation() {
       icon: Brain,
       level: 'Certified',
       connected: ['python', 'ai', 'sensors'],
-      description: 'Processing real-time sensor streams, agricultural telemetry, and statistical insights extraction.',
+      description: 'Processing real-time sensor streams, mine deformation telemetry, and statistical insights extraction.',
     },
     {
       id: 'ml',
-      name: 'Machine Learning Concepts',
+      name: 'Machine Learning (Iso & Random Forest)',
       category: 'AI & DATA',
       color: '#B026FF',
       icon: Brain,
-      level: 'Developing Model',
-      connected: ['ai', 'data'],
-      description: 'Supervised classification, regression models for yield estimation, and neural network fundamentals.',
+      level: 'Applied Algorithms',
+      connected: ['ai', 'data', 'thulir'],
+      description: 'Isolation Forest for unsupervised sensor anomaly detection and Random Forest for 4-tier risk classification.',
     },
     {
       id: 'embedded',
@@ -72,68 +102,28 @@ export default function TechConstellation() {
       color: '#39FF14',
       icon: Cpu,
       level: 'Specialization',
-      connected: ['sensors', 'iot', 'automation'],
+      connected: ['esp32', 'sensors', 'iot'],
       description: 'Microcontroller hardware architecture, firmware development, closed-loop actuation, and circuit interfacing.',
     },
     {
       id: 'sensors',
-      name: 'Sensors',
+      name: 'Sensors & IoT Arrays',
       category: 'ELECTRONICS',
       color: '#00F0FF',
       icon: Cpu,
-      level: 'Practical',
-      connected: ['embedded', 'data', 'smartagri'],
-      description: 'Soil moisture, temperature, NPK, humidity, and atmospheric sensor telemetry acquisition.',
+      level: 'Practical Hardware',
+      connected: ['esp32', 'embedded', 'thulir', 'smartagri'],
+      description: 'Above/below ground deformation sensors, soil moisture, temperature, humidity, and atmospheric sensor telemetry.',
     },
     {
-      id: 'vlsi',
-      name: 'VLSI',
-      category: 'ELECTRONICS',
+      id: 'thulir',
+      name: 'THULIR (SIH 2026)',
+      category: 'INNOVATION',
       color: '#FF2D95',
-      icon: Cpu,
-      level: 'Academic Core',
-      connected: ['electronics', 'embedded'],
-      description: 'Integrated circuit design concepts, MOS transistor logic, and semiconductor system basics.',
-    },
-    {
-      id: 'comm',
-      name: 'Communication Systems',
-      category: 'ELECTRONICS',
-      color: '#B026FF',
-      icon: Cpu,
-      level: 'BSNL Trained',
-      connected: ['iot', 'embedded'],
-      description: 'Telecommunications protocols, signal transmission, switching systems, and networking hardware.',
-    },
-    {
-      id: 'webdev',
-      name: 'Web Development',
-      category: 'DEVELOPMENT',
-      color: '#61DAFB',
-      icon: Globe,
-      level: 'Modern Stack',
-      connected: ['java', 'python', 'smartagri'],
-      description: 'Building responsive, futuristic farmer dashboards and interactive web application frontends.',
-    },
-    {
-      id: 'iot',
-      name: 'Internet of Things (IoT)',
-      category: 'DEVELOPMENT',
-      color: '#39FF14',
-      icon: Globe,
-      level: 'Core Focus',
-      connected: ['embedded', 'sensors', 'automation'],
-      description: 'Wireless sensor networks, cloud data transmission, and real-time remote device monitoring.',
-    },
-    {
-      id: 'automation',
-      name: 'Automation',
-      category: 'DEVELOPMENT',
-      color: '#B026FF',
-      icon: Globe,
-      level: 'Applied',
-      connected: ['embedded', 'iot', 'smartagri'],
-      description: 'Automating hardware relays, irrigation valve actuation, and workflow execution.',
+      icon: Sparkles,
+      level: 'Major Project',
+      connected: ['esp32', 'cellular', 'flask', 'ai'],
+      description: 'AI-Powered T-Shaped Mine Subsidence Monitoring and Early Warning System (~₹3,035 target node cost).',
     },
     {
       id: 'smartagri',
@@ -142,28 +132,8 @@ export default function TechConstellation() {
       color: '#2E7D32',
       icon: Sparkles,
       level: 'Flagship Domain',
-      connected: ['sensors', 'ai', 'embedded', 'iot'],
-      description: 'End-to-end smart farming framework (AgroPulse & HarvestIQ) combining sensors & AI for high crop yield.',
-    },
-    {
-      id: 'hwsw',
-      name: 'Hardware + Software Integration',
-      category: 'INNOVATION',
-      color: '#00F0FF',
-      icon: Sparkles,
-      level: 'Core Skill',
-      connected: ['embedded', 'webdev', 'sensors'],
-      description: 'Bridging physical electronic circuits directly with modern web dashboards and cloud AI models.',
-    },
-    {
-      id: 'problemsolving',
-      name: 'Real-World Problem Solving',
-      category: 'INNOVATION',
-      color: '#FF2D95',
-      icon: Sparkles,
-      level: 'Mindset',
-      connected: ['smartagri', 'hwsw', 'ai'],
-      description: 'Designing practical, accessible engineering technology to tackle agricultural and industrial challenges.',
+      connected: ['sensors', 'ai', 'embedded'],
+      description: 'End-to-end smart farming frameworks (AgroPulse & HarvestIQ) combining sensors & AI for maximum crop yield.',
     },
   ];
 
@@ -210,7 +180,7 @@ export default function TechConstellation() {
       </div>
 
       {/* Interactive Constellation Node Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 mb-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mb-10">
         {filteredNodes.map((node) => {
           const Icon = node.icon;
           const isSelected = selectedNode?.id === node.id;

@@ -31,14 +31,14 @@ export default function Hero({ onOpenResume }) {
         {/* Status Pill */}
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-panel border border-[#00F0FF]/30 text-xs font-mono text-[#00F0FF] mb-8 shadow-[0_0_20px_rgba(0,240,255,0.15)] animate-fadeIn">
           <span className="w-2 h-2 rounded-full bg-[#39FF14] animate-pulse" />
-          <span>STATUS: AVAILABLE FOR HACKATHONS & INTERNSHIPS</span>
+          <span>STATUS: SIH 2026 INNOVATOR & ECE BUILDER</span>
           <span className="text-gray-500">|</span>
           <span className="text-gray-300">SEM 4 • CGPA 7.8</span>
         </div>
 
         {/* Big Name Banner */}
         <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black font-orbitron tracking-tight text-white mb-4 leading-none uppercase">
-          SABEESHVAR <span className="text-[#00F0FF] glow-text-cyan">M.</span>
+          M. SABEESHVAR <span className="text-[#00F0FF] glow-text-cyan"></span>
         </h1>
 
         {/* Sub-header Roles Badges */}
@@ -47,23 +47,26 @@ export default function Hero({ onOpenResume }) {
             ECE ENGINEER
           </span>
           <span className="px-3.5 py-1.5 rounded-lg bg-[#B026FF]/10 text-[#B026FF] border border-[#B026FF]/30 font-semibold">
-            AI BUILDER
+            EMBEDDED & IoT BUILDER
           </span>
           <span className="px-3.5 py-1.5 rounded-lg bg-[#FF2D95]/10 text-[#FF2D95] border border-[#FF2D95]/30 font-semibold">
-            EMBEDDED SYSTEMS ENTHUSIAST
+            AI/ML INNOVATOR
+          </span>
+          <span className="px-3.5 py-1.5 rounded-lg bg-[#39FF14]/10 text-[#39FF14] border border-[#39FF14]/30 font-semibold">
+            FUTURE ENTREPRENEUR
           </span>
         </div>
 
         {/* Main Headline */}
         <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold font-space text-gray-100 max-w-4xl mx-auto leading-tight mb-6">
-          "Turning <span className="text-[#00F0FF]">Electronics</span>,{' '}
-          <span className="text-[#B026FF]">Intelligence</span> & Ideas into{' '}
-          <span className="text-[#39FF14]">Real-World Solutions</span>."
+          "Building <span className="text-[#00F0FF]">Intelligent Technology</span> that Connects{' '}
+          <span className="text-[#B026FF]">Electronics</span>, AI and{' '}
+          <span className="text-[#39FF14]">Real-World Impact</span>."
         </h2>
 
         {/* Detailed Description */}
         <p className="text-base sm:text-lg text-gray-300 max-w-3xl mx-auto mb-10 leading-relaxed font-sans">
-          Electronics & Communication Engineering student at VSB Engineering College passionate about AI, embedded systems, smart agriculture and building technology that creates real-world impact.
+          Electronics & Communication Engineering undergraduate at VSB Engineering College specializing in ESP32, IoT sensor networks, 4G telemetry, AI anomaly detection, smart agriculture, and SIH 2026 mine safety innovations.
         </p>
 
         {/* CTA Buttons Row */}
@@ -106,11 +109,9 @@ export default function Hero({ onOpenResume }) {
               <GithubIcon className="w-5 h-5" />
             </a>
             <a
-              href="#"
-              onClick={(e) => {
-                e.preventDefault();
-                alert('LinkedIn Profile URL: Replace with your actual LinkedIn link');
-              }}
+              href="https://www.linkedin.com/in/m-sabeeshvar-09145a31b/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="p-3 rounded-xl glass-panel text-gray-300 hover:text-[#00F0FF] hover:border-[#00F0FF]/50 transition-all duration-300 hover:shadow-[0_0_15px_rgba(0,240,255,0.2)]"
               aria-label="LinkedIn Profile"
             >

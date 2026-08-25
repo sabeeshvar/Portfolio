@@ -15,24 +15,64 @@ import {
   Database,
   Smartphone,
   Sprout,
+  Radio,
+  RadioTower,
+  Flame,
+  Sun,
 } from 'lucide-react';
 
 export default function Projects({ onOpenModal }) {
-  const [activePipelineStep, setActivePipelineStep] = useState(0);
+  const [activeThulirStep, setActiveThulirStep] = useState(0);
 
-  const pipelineSteps = [
-    { label: 'FARM', icon: Sprout, color: '#39FF14' },
-    { label: 'SENSORS', icon: Cpu, color: '#00F0FF' },
-    { label: 'CLOUD DATA', icon: Cloud, color: '#61DAFB' },
-    { label: 'AI ENGINE', icon: Brain, color: '#B026FF' },
-    { label: 'SMART DECISION', icon: Zap, color: '#FF2D95' },
-    { label: 'FARMER DASHBOARD', icon: Smartphone, color: '#FFB800' },
+  const thulirPipelineSteps = [
+    { label: 'T-SENSORS', icon: Cpu, color: '#00F0FF' },
+    { label: 'ESP32 CONTROLLER', icon: Zap, color: '#39FF14' },
+    { label: 'A7670C 4G CELLULAR', icon: Radio, color: '#B026FF' },
+    { label: 'FLASK BACKEND API', icon: Cloud, color: '#61DAFB' },
+    { label: 'AI (ISO & RANDOM FOREST)', icon: Brain, color: '#FF2D95' },
+    { label: 'GIS DASHBOARD & ALERTS', icon: Smartphone, color: '#FFB800' },
   ];
 
   const projectsData = [
     {
-      id: 'agropulse',
+      id: 'thulir',
       isFlagship: true,
+      badgeText: 'SIH 2026 MAJOR PROJECT 01',
+      title: 'THULIR',
+      subtitle: 'AI-Powered T-Shaped Mine Subsidence Monitoring & Early Warning System',
+      description:
+        'A low-cost, real-time mine subsidence monitoring and early warning system designed for underground coal mining safety. Integrates T-shaped above & below ground sensors, ESP32, A7670C 4G telemetry, Flask backend, GIS mapping, and dual AI models (Isolation Forest + Random Forest).',
+      features: [
+        'Continuous T-shaped above-ground & below-ground deformation sensing',
+        'ESP32 controller + A7670C 4G cellular transmission for remote mines',
+        'Isolation Forest unsupervised anomaly detection algorithm',
+        'Random Forest 4-tier risk classifier (NORMAL → WARNING → HIGH RISK → CRITICAL)',
+        'Real-time GIS map dashboard & multi-channel emergency alerts',
+        'Solar powered field node (~₹3,035 target prototype cost per node)',
+      ],
+      tech: [
+        'ESP32',
+        'A7670C 4G',
+        'Flask API',
+        'Isolation Forest',
+        'Random Forest',
+        'IoT Sensors',
+        'GIS Dashboard',
+        'Solar Power',
+      ],
+      color: '#00F0FF',
+      problem:
+        'Underground coal mining causes land subsidence that threatens worker lives, local communities, roads, and environmental infrastructure. Traditional manual field surveys are periodic, slow, and provide post-facto damage assessments rather than proactive early warnings.',
+      solution:
+        'THULIR deploys scalable, solar-powered T-shaped sensor nodes in mining zones. Data streams over 4G cellular to a Flask backend where Isolation Forest identifies abnormal sensor patterns and Random Forest classifies real-time subsidence risk, updating a live GIS dashboard with automated alerts.',
+      role: 'Project Architect & Hardware-Software Lead — Designed ESP32 firmware, A7670C 4G cellular telemetry integration, sensor interface circuits, Flask API endpoints, and AI risk classification models.',
+      futureImprovements:
+        'Custom PCB integration for bulk manufacturing, LoRaWAN mesh fallbacks for deep remote shafts, and satellite radar cross-validation.',
+    },
+    {
+      id: 'agropulse',
+      isFlagship: false,
+      badgeText: 'FLAGSHIP AGRICULTURE PROJECT',
       title: 'AgroPulse',
       subtitle: 'Smart Agriculture System Using Sensors & AI',
       description:
@@ -53,7 +93,7 @@ export default function Projects({ onOpenModal }) {
         'Smart Agriculture',
         'Data Analysis',
       ],
-      color: '#00F0FF',
+      color: '#39FF14',
       problem:
         'Traditional farming lacks real-time soil telemetry and early disease diagnosis, leading to wasted water, crop loss, and unoptimized fertilizer usage.',
       solution:
@@ -65,6 +105,7 @@ export default function Projects({ onOpenModal }) {
     {
       id: 'harvestiq',
       isFlagship: false,
+      badgeText: 'AI AGRI PLATFORM',
       title: 'HarvestIQ',
       subtitle: 'AI-Powered Smart Agriculture Platform',
       description:
@@ -78,7 +119,7 @@ export default function Projects({ onOpenModal }) {
         'Farmer-friendly accessible UI',
       ],
       tech: ['AI', 'Web Development', 'Agriculture', 'Data Analysis', 'Smart Farming'],
-      color: '#39FF14',
+      color: '#B026FF',
       problem:
         'Smallholder farmers struggle to find verified high-quality seeds and lack accessible digital advice tailored to their specific regional soil types.',
       solution:
@@ -90,25 +131,26 @@ export default function Projects({ onOpenModal }) {
     {
       id: 'embeddedlab',
       isFlagship: false,
+      badgeText: 'HARDWARE WORKSPACE',
       title: 'Embedded Systems Lab',
       subtitle: 'Hardware × Software Integration Workspace',
       description:
         'Custom microcontroller prototypes, sensor telemetry arrays, wireless IoT nodes, and hardware-level automation logic.',
       features: [
-        'Arduino & Raspberry Pi hardware prototypes',
+        'ESP32 & Arduino hardware prototypes',
         'Wireless sensor node telemetry',
         'Real-time automated relay actuation',
         'Hardware problem solving & circuit debugging',
       ],
       tech: ['Embedded Systems', 'IoT', 'Sensors', 'Automation', 'Electronics'],
-      color: '#B026FF',
+      color: '#FF2D95',
       problem:
         'Connecting low-level microcontroller hardware logic seamlessly with high-level web dashboards without latency or data packet loss.',
       solution:
-        'Created a modular embedded systems testing lab with custom C++ firmware, MQTT/HTTP telemetry, and responsive dashboard monitors.',
+        'Created a modular embedded systems testing lab with custom C++ firmware, 4G/HTTP telemetry, and responsive dashboard monitors.',
       role: 'Hardware Engineer — Designed circuit layouts, flashed microcontrollers, and calibrated sensor voltage thresholds.',
       futureImprovements:
-        'Designing custom PCB boards and expanding to LoRaWAN long-range agricultural telemetry.',
+        'Designing custom PCB boards and expanding to LoRaWAN long-range telemetry.',
     },
   ];
 
@@ -116,41 +158,43 @@ export default function Projects({ onOpenModal }) {
     <section id="projects" className="py-24 relative z-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       {/* Section Title Header */}
       <div className="text-center mb-16">
-        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full glass-panel border border-[#39FF14]/30 text-xs font-mono text-[#39FF14] mb-3">
-          <span className="w-1.5 h-1.5 rounded-full bg-[#39FF14]" />
-          <span>SECTION // 04 • PORTFOLIO CORE</span>
+        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full glass-panel border border-[#00F0FF]/30 text-xs font-mono text-[#00F0FF] mb-3">
+          <span className="w-1.5 h-1.5 rounded-full bg-[#00F0FF]" />
+          <span>SECTION // 04 • FEATURED INNOVATIONS</span>
         </div>
         <h2 className="text-4xl sm:text-6xl font-black font-orbitron text-white tracking-tight uppercase">
-          THINGS I'VE <span className="text-[#39FF14] glow-text-cyan">BUILT</span>
+          THINGS I'VE <span className="text-[#00F0FF] glow-text-cyan">BUILT</span>
         </h2>
         <p className="text-sm font-mono text-gray-400 mt-2 max-w-xl mx-auto">
-          High-impact engineering solutions combining electronics, sensor arrays, AI engines, and hardware automation.
+          Hardware + Embedded + 4G Telemetry + AI/ML Anomaly Detection + Real-World Impact.
         </p>
-        <div className="w-24 h-1 bg-gradient-to-r from-[#39FF14] via-[#00F0FF] to-[#B026FF] mx-auto mt-4 rounded-full" />
+        <div className="w-24 h-1 bg-gradient-to-r from-[#00F0FF] via-[#39FF14] to-[#B026FF] mx-auto mt-4 rounded-full" />
       </div>
 
-      {/* FLAGSHIP HERO PROJECT: AGROPULSE */}
+      {/* MAJOR SIH 2026 FEATURED PROJECT: THULIR */}
       <div className="mb-16">
-        <div className="glass-panel p-8 sm:p-10 rounded-3xl border-2 border-[#00F0FF]/40 shadow-[0_0_50px_rgba(0,240,255,0.15)] relative overflow-hidden group">
+        <div className="glass-panel p-8 sm:p-10 rounded-3xl border-2 border-[#00F0FF]/50 shadow-[0_0_50px_rgba(0,240,255,0.2)] relative overflow-hidden group">
           {/* Flagship Badge */}
           <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
             <div className="flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#00F0FF]/15 border border-[#00F0FF]/50 text-xs font-mono text-[#00F0FF] font-bold shadow-[0_0_15px_rgba(0,240,255,0.3)]">
               <Zap className="w-4 h-4 text-[#39FF14] animate-pulse" />
-              <span>FLAGSHIP HERO PROJECT 01</span>
+              <span>SIH 2026 MAJOR PROJECT • FEATURED 01</span>
             </div>
-            <span className="text-xs font-mono text-gray-400">IN ACTIVE DEVELOPMENT // ECE</span>
+            <span className="text-xs font-mono text-[#39FF14] font-bold">
+              TARGET NODE COST: ~₹3,035 PER NODE
+            </span>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center mb-8">
             <div className="lg:col-span-6 space-y-4">
               <h3 className="text-3xl sm:text-5xl font-black font-orbitron text-white">
-                AgroPulse
+                THULIR
               </h3>
               <h4 className="text-base font-mono text-[#00F0FF] font-semibold">
-                Smart Agriculture System Using Sensors & AI
+                AI-Powered T-Shaped Mine Subsidence Monitoring System
               </h4>
               <p className="text-gray-300 font-sans text-sm sm:text-base leading-relaxed">
-                An intelligent agriculture solution combining physical sensors, AI algorithms and smart web technologies to help farmers make better decisions, optimize water usage, and detect crop diseases early.
+                An affordable, continuous mine subsidence monitoring solution for underground coal mining safety. Integrates T-shaped above/below ground sensor arrays, ESP32, A7670C 4G cellular transmission, Flask APIs, GIS live mapping, and dual ML risk engines (Isolation Forest + Random Forest).
               </p>
 
               {/* Tech Badges */}
@@ -166,22 +210,22 @@ export default function Projects({ onOpenModal }) {
               </div>
             </div>
 
-            {/* CUSTOM ANIMATED PIPELINE VISUAL */}
+            {/* THULIR ANIMATED TELEMETRY PIPELINE */}
             <div className="lg:col-span-6 glass-panel p-6 rounded-2xl border border-white/10 relative">
               <div className="text-xs font-mono text-gray-400 mb-4 flex items-center justify-between">
-                <span className="text-[#00F0FF] font-bold">SYSTEM TELEMETRY PIPELINE</span>
-                <span className="text-[10px] text-gray-500">LIVE DATA FLOW</span>
+                <span className="text-[#00F0FF] font-bold">THULIR DATA TELEMETRY PIPELINE</span>
+                <span className="text-[10px] text-[#39FF14]">SOLAR OPERATIONAL</span>
               </div>
 
               {/* Animated Horizontal Pipeline Nodes */}
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-                {pipelineSteps.map((step, idx) => {
+                {thulirPipelineSteps.map((step, idx) => {
                   const Icon = step.icon;
-                  const isActive = activePipelineStep === idx;
+                  const isActive = activeThulirStep === idx;
                   return (
                     <div
                       key={idx}
-                      onMouseEnter={() => setActivePipelineStep(idx)}
+                      onMouseEnter={() => setActiveThulirStep(idx)}
                       className={`p-3 rounded-xl border transition-all duration-300 cursor-pointer flex flex-col items-center text-center ${
                         isActive
                           ? 'border-[#00F0FF] bg-[#00F0FF]/15 shadow-[0_0_20px_rgba(0,240,255,0.25)] scale-105'
@@ -201,9 +245,9 @@ export default function Projects({ onOpenModal }) {
               <div className="mt-4 p-3 rounded-xl bg-[#090D14] border border-white/10 flex items-center justify-between text-xs font-mono text-gray-300">
                 <span className="flex items-center gap-2">
                   <Activity className="w-4 h-4 text-[#39FF14] animate-pulse" />
-                  <span>STEP 0{activePipelineStep + 1}: {pipelineSteps[activePipelineStep].label} PROCESSING</span>
+                  <span>STEP 0{activeThulirStep + 1}: {thulirPipelineSteps[activeThulirStep].label}</span>
                 </span>
-                <span className="text-[10px] text-[#00F0FF]">ACTIVE PULSE</span>
+                <span className="text-[10px] text-[#00F0FF]">4G CELLULAR ACTIVE</span>
               </div>
             </div>
           </div>
@@ -231,8 +275,8 @@ export default function Projects({ onOpenModal }) {
         </div>
       </div>
 
-      {/* SECONDARY PROJECTS: HARVESTIQ & EMBEDDED LAB */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      {/* SECONDARY PROJECTS: AGROPULSE, HARVESTIQ, EMBEDDED LAB */}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {projectsData.slice(1).map((proj) => (
           <div
             key={proj.id}
@@ -248,9 +292,8 @@ export default function Projects({ onOpenModal }) {
                     color: proj.color,
                   }}
                 >
-                  PROJECT {proj.id === 'harvestiq' ? '02' : '03'}
+                  {proj.badgeText}
                 </span>
-                <span className="text-xs font-mono text-gray-500">ELECTRONICS × AI</span>
               </div>
 
               <h3 className="text-2xl font-bold font-orbitron text-white mb-1 group-hover:text-[#00F0FF] transition-colors">

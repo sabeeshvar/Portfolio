@@ -47,10 +47,10 @@ export default function Contact() {
         <div className="lg:col-span-5 space-y-6">
           <div className="glass-panel p-8 rounded-3xl border border-white/10 relative overflow-hidden">
             <h3 className="text-2xl font-bold font-orbitron text-white mb-2">
-              SABEESHVAR M.
+              M. SABEESHVAR
             </h3>
             <p className="text-xs font-mono text-[#00F0FF] mb-6">
-              ECE ENGINEER & TECHNOLOGY BUILDER
+              ECE ENGINEER & SIH 2026 INNOVATOR
             </p>
 
             <div className="space-y-4 font-mono text-xs text-gray-300">
@@ -77,16 +77,14 @@ export default function Contact() {
               <div className="flex items-center gap-3 p-3.5 rounded-xl bg-white/5 border border-white/10">
                 <LinkedinIcon className="w-5 h-5 text-[#B026FF]" />
                 <div>
-                  <span className="text-[10px] text-gray-500 block">LINKEDIN NETWORK</span>
+                  <span className="text-[10px] text-gray-500 block">OFFICIAL LINKEDIN</span>
                   <a
-                    href="#"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      alert('LinkedIn Profile URL: Replace with your actual LinkedIn link');
-                    }}
-                    className="text-white hover:text-[#B026FF] transition-colors font-bold"
+                    href="https://www.linkedin.com/in/m-sabeeshvar-09145a31b/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white hover:text-[#B026FF] transition-colors font-bold truncate block"
                   >
-                    LinkedIn Profile [Connect]
+                    linkedin.com/in/m-sabeeshvar-09145a31b/
                   </a>
                 </div>
               </div>
