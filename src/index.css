@@ -5,8 +5,7 @@
     --bg-dark: #090d14;
     --card-bg: #111726;
     --cyan-glow: #00f0ff;
-    --orange-accent: #ff6b00;
-    --green-light-hover: rgba(16, 185, 129, 0.14);
+    --cyan-hover-bg: rgba(0, 240, 255, 0.08);
     --slate-accent: #94a3b8;
   }
 }
@@ -23,7 +22,7 @@
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #ff6b00;
+  background: #00f0ff;
 }
 
 /* Circuit Background Grid */
@@ -34,39 +33,53 @@
   background-size: 40px 40px;
 }
 
-/* Glassmorphism card utility with hover background & vibrant orange border */
+/* Glassmorphism card utility with theme-matching electric cyan hover border & subtle cyan glass fill */
 .glass-panel {
   background: rgba(17, 23, 38, 0.75);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid rgba(0, 240, 255, 0.15);
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Cursor hover on box/card: change to light green tint background & attractive orange border */
+/* Cursor hover on box/card: subtle cyan glass tint & electric cyan border glow */
 .glass-panel:hover {
-  background: rgba(16, 185, 129, 0.12);
-  border-color: #ff6b00;
-  box-shadow: 0 0 25px rgba(255, 107, 0, 0.35);
-  transform: translateY(-3px);
+  background: rgba(0, 240, 255, 0.08);
+  border-color: #00f0ff;
+  box-shadow: 0 0 25px rgba(0, 240, 255, 0.35);
+  transform: translateY(-4px);
 }
 
-/* Text / Word / Button hover highlight with attractive orange border */
-.hover-orange-border {
-  transition: all 0.25s ease-in-out;
+/* Interactive elements hover */
+.interactive-node-hover {
+  transition: all 0.3s ease;
 }
-.hover-orange-border:hover {
-  border-color: #ff6b00 !important;
-  box-shadow: 0 0 15px rgba(255, 107, 0, 0.4) !important;
-  color: #ffffff !important;
+.interactive-node-hover:hover {
+  border-color: #00f0ff !important;
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.3) !important;
+  background: rgba(0, 240, 255, 0.1) !important;
+}
+
+/* Floating wave animation for name text letters */
+@keyframes float-wave {
+  0%, 100% {
+    transform: translateY(0px);
+    text-shadow: 0 0 10px rgba(0, 240, 255, 0.3);
+  }
+  50% {
+    transform: translateY(-8px);
+    text-shadow: 0 0 22px rgba(0, 240, 255, 0.8), 0 0 35px rgba(0, 240, 255, 0.4);
+  }
+}
+
+.animate-float-letter {
+  display: inline-block;
+  animation: float-wave 3.2s ease-in-out infinite;
 }
 
 /* Glowing text effects */
 .glow-text-cyan {
-  text-shadow: 0 0 12px rgba(0, 240, 255, 0.5);
-}
-.glow-text-orange {
-  text-shadow: 0 0 12px rgba(255, 107, 0, 0.6);
+  text-shadow: 0 0 16px rgba(0, 240, 255, 0.6);
 }
 
 /* Radar pulse animation */
