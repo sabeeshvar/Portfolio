@@ -22,12 +22,12 @@ export default function Hero({ onOpenResume }) {
       id="hero"
       className="relative min-h-screen pt-32 pb-20 flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 overflow-hidden"
     >
-      {/* Subtle single-color cyan background backdrop */}
+      {/* Subtle background backdrop */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#00F0FF]/8 rounded-full blur-[160px] pointer-events-none" />
 
       <div className="max-w-5xl mx-auto text-center relative z-10">
-        {/* Status Pill */}
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-panel border border-[#00F0FF]/30 text-xs font-mono text-[#00F0FF] mb-8 shadow-[0_0_20px_rgba(0,240,255,0.1)] animate-fadeIn">
+        {/* Status Pill with hover orange border */}
+        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-panel border border-[#00F0FF]/30 text-xs font-mono text-[#00F0FF] mb-8 shadow-[0_0_20px_rgba(0,240,255,0.1)] hover:border-[#FF6B00] hover:bg-[#10B981]/15 transition-all duration-300 animate-fadeIn">
           <span className="w-2 h-2 rounded-full bg-[#00F0FF] animate-pulse" />
           <span>STATUS: SIH 2026 INNOVATOR & ECE BUILDER</span>
           <span className="text-gray-600">|</span>
@@ -39,18 +39,18 @@ export default function Hero({ onOpenResume }) {
           M. SABEESHVAR <span className="text-[#00F0FF] glow-text-cyan"></span>
         </h1>
 
-        {/* Sub-header Roles Badges (Unified Cyan & Slate) */}
+        {/* Sub-header Roles Badges */}
         <div className="flex flex-wrap justify-center gap-2.5 mb-8 font-mono text-xs sm:text-sm">
-          <span className="px-3.5 py-1.5 rounded-lg bg-[#00F0FF]/10 text-[#00F0FF] border border-[#00F0FF]/30 font-semibold">
+          <span className="px-3.5 py-1.5 rounded-lg bg-[#00F0FF]/10 text-[#00F0FF] border border-[#00F0FF]/30 font-semibold hover:border-[#FF6B00] hover:bg-[#10B981]/15 transition-all duration-300 cursor-pointer">
             ECE ENGINEER
           </span>
-          <span className="px-3.5 py-1.5 rounded-lg bg-white/5 text-gray-200 border border-white/10 font-semibold">
+          <span className="px-3.5 py-1.5 rounded-lg bg-white/5 text-gray-200 border border-white/10 font-semibold hover:border-[#FF6B00] hover:bg-[#10B981]/15 transition-all duration-300 cursor-pointer">
             EMBEDDED & IoT BUILDER
           </span>
-          <span className="px-3.5 py-1.5 rounded-lg bg-white/5 text-gray-200 border border-white/10 font-semibold">
+          <span className="px-3.5 py-1.5 rounded-lg bg-white/5 text-gray-200 border border-white/10 font-semibold hover:border-[#FF6B00] hover:bg-[#10B981]/15 transition-all duration-300 cursor-pointer">
             AI/ML INNOVATOR
           </span>
-          <span className="px-3.5 py-1.5 rounded-lg bg-[#00F0FF]/10 text-[#00F0FF] border border-[#00F0FF]/30 font-semibold">
+          <span className="px-3.5 py-1.5 rounded-lg bg-[#00F0FF]/10 text-[#00F0FF] border border-[#00F0FF]/30 font-semibold hover:border-[#FF6B00] hover:bg-[#10B981]/15 transition-all duration-300 cursor-pointer">
             FUTURE ENTREPRENEUR
           </span>
         </div>
@@ -69,7 +69,7 @@ export default function Hero({ onOpenResume }) {
         <div className="flex flex-wrap items-center justify-center gap-4 mb-14 font-mono">
           <button
             onClick={() => scrollToSection('projects')}
-            className="px-6 py-3.5 rounded-xl bg-[#00F0FF] text-[#090D14] font-bold text-sm hover:bg-[#00F0FF]/90 transition-all duration-300 shadow-[0_0_25px_rgba(0,240,255,0.35)] flex items-center gap-2.5 cursor-pointer group hover:scale-[1.02]"
+            className="px-6 py-3.5 rounded-xl bg-[#00F0FF] text-[#090D14] font-bold text-sm hover:bg-[#FF6B00] hover:text-white hover:border-[#FF6B00] transition-all duration-300 shadow-[0_0_25px_rgba(0,240,255,0.35)] hover:shadow-[0_0_25px_rgba(255,107,0,0.5)] flex items-center gap-2.5 cursor-pointer group hover:scale-[1.02]"
           >
             <span>EXPLORE MY WORK</span>
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -77,7 +77,7 @@ export default function Hero({ onOpenResume }) {
 
           <button
             onClick={onOpenResume}
-            className="px-6 py-3.5 rounded-xl glass-panel text-white font-semibold text-sm hover:border-[#00F0FF]/60 transition-all duration-300 flex items-center gap-2.5 cursor-pointer hover:bg-white/5"
+            className="px-6 py-3.5 rounded-xl glass-panel text-white font-semibold text-sm hover:border-[#FF6B00] hover:bg-[#10B981]/15 transition-all duration-300 flex items-center gap-2.5 cursor-pointer"
           >
             <FileText className="w-4 h-4 text-[#00F0FF]" />
             <span>DOWNLOAD RESUME</span>
@@ -85,7 +85,7 @@ export default function Hero({ onOpenResume }) {
 
           <button
             onClick={() => scrollToSection('contact')}
-            className="px-6 py-3.5 rounded-xl border border-white/15 text-gray-300 font-medium text-sm hover:text-white hover:border-white/40 transition-all duration-300 cursor-pointer"
+            className="px-6 py-3.5 rounded-xl border border-white/15 text-gray-300 font-medium text-sm hover:text-white hover:border-[#FF6B00] hover:bg-[#10B981]/15 transition-all duration-300 cursor-pointer"
           >
             CONTACT ME
           </button>
@@ -99,7 +99,7 @@ export default function Hero({ onOpenResume }) {
               href="https://github.com/sabeeshvar"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 rounded-xl glass-panel text-gray-300 hover:text-[#00F0FF] hover:border-[#00F0FF]/50 transition-all duration-300 hover:shadow-[0_0_15px_rgba(0,240,255,0.2)]"
+              className="p-3 rounded-xl glass-panel text-gray-300 hover:text-[#FF6B00] hover:border-[#FF6B00] hover:bg-[#10B981]/15 transition-all duration-300 hover:shadow-[0_0_15px_rgba(255,107,0,0.4)]"
               aria-label="GitHub Profile"
             >
               <GithubIcon className="w-5 h-5" />
@@ -108,14 +108,14 @@ export default function Hero({ onOpenResume }) {
               href="https://www.linkedin.com/in/m-sabeeshvar-09145a31b/"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 rounded-xl glass-panel text-gray-300 hover:text-[#00F0FF] hover:border-[#00F0FF]/50 transition-all duration-300 hover:shadow-[0_0_15px_rgba(0,240,255,0.2)]"
+              className="p-3 rounded-xl glass-panel text-gray-300 hover:text-[#FF6B00] hover:border-[#FF6B00] hover:bg-[#10B981]/15 transition-all duration-300 hover:shadow-[0_0_15px_rgba(255,107,0,0.4)]"
               aria-label="LinkedIn Profile"
             >
               <LinkedinIcon className="w-5 h-5" />
             </a>
             <a
               href="mailto:sabeeshvar@gmail.com"
-              className="p-3 rounded-xl glass-panel text-gray-300 hover:text-[#00F0FF] hover:border-[#00F0FF]/50 transition-all duration-300 hover:shadow-[0_0_15px_rgba(0,240,255,0.2)]"
+              className="p-3 rounded-xl glass-panel text-gray-300 hover:text-[#FF6B00] hover:border-[#FF6B00] hover:bg-[#10B981]/15 transition-all duration-300 hover:shadow-[0_0_15px_rgba(255,107,0,0.4)]"
               aria-label="Email Contact"
             >
               <Mail className="w-5 h-5" />

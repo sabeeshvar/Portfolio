@@ -5,8 +5,9 @@
     --bg-dark: #090d14;
     --card-bg: #111726;
     --cyan-glow: #00f0ff;
+    --orange-accent: #ff6b00;
+    --green-light-hover: rgba(16, 185, 129, 0.14);
     --slate-accent: #94a3b8;
-    --slate-border: rgba(0, 240, 255, 0.15);
   }
 }
 
@@ -22,7 +23,7 @@
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 240, 255, 0.5);
+  background: #ff6b00;
 }
 
 /* Circuit Background Grid */
@@ -33,26 +34,39 @@
   background-size: 40px 40px;
 }
 
-/* Glassmorphism utility */
+/* Glassmorphism card utility with hover background & vibrant orange border */
 .glass-panel {
   background: rgba(17, 23, 38, 0.75);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(0, 240, 255, 0.14);
-}
-
-.glass-panel-hover {
+  border: 1px solid rgba(0, 240, 255, 0.15);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.glass-panel-hover:hover {
-  border-color: rgba(0, 240, 255, 0.4);
-  box-shadow: 0 0 25px rgba(0, 240, 255, 0.12);
+
+/* Cursor hover on box/card: change to light green tint background & attractive orange border */
+.glass-panel:hover {
+  background: rgba(16, 185, 129, 0.12);
+  border-color: #ff6b00;
+  box-shadow: 0 0 25px rgba(255, 107, 0, 0.35);
   transform: translateY(-3px);
+}
+
+/* Text / Word / Button hover highlight with attractive orange border */
+.hover-orange-border {
+  transition: all 0.25s ease-in-out;
+}
+.hover-orange-border:hover {
+  border-color: #ff6b00 !important;
+  box-shadow: 0 0 15px rgba(255, 107, 0, 0.4) !important;
+  color: #ffffff !important;
 }
 
 /* Glowing text effects */
 .glow-text-cyan {
   text-shadow: 0 0 12px rgba(0, 240, 255, 0.5);
+}
+.glow-text-orange {
+  text-shadow: 0 0 12px rgba(255, 107, 0, 0.6);
 }
 
 /* Radar pulse animation */
