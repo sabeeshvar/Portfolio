@@ -1,28 +1,31 @@
 <div align="center">
 
 <!-- HERO BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=280&color=gradient&customColorList=00F0FF,B026FF,FF2D95&text=SABEESHVAR%20M.&fontSize=70&fontColor=ffffff&desc=ECE%20ENGINEER%20%E2%80%A2%20AI%20BUILDER%20%E2%80%A2%20EMBEDDED%20ENTHUSIAST&descSize=18&descAlignY=55" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&customColorList=12,15,20,24&section=header&text=SABEESHVAR%20M.&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=ECE%20ENGINEER%20%7C%20AI%20BUILDER%20%7C%20EMBEDDED%20ENTHUSIAST&descAlignY=55&descSize=16&animation=fadeIn" width="100%"/>
 
 <br/>
 
 <!-- TYPING SVG -->
-<a href="#"><img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=22&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=800&height=50&lines=Building+intelligent+technology+that+connects;electronics%2C+AI+and+real-world+impact." alt="Typing SVG" /></a>
+<a href="#"><img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=20&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=800&height=50&lines=Building+intelligent+technology+that+connects+electronics%2C+AI+and+real-world+impact.;Electronics+x+AI+x+Embedded+x+IoT;From+circuits+to+startups;Hackathon+builder.+Future+entrepreneur." alt="Typing SVG" /></a>
 
 <br/><br/>
 
-<!-- HERO BADGES -->
+<!-- STATUS BADGES -->
 <img src="https://img.shields.io/badge/STATUS-AVAILABLE_FOR_COLLAB-39FF14?style=for-the-badge&labelColor=0D1117&logo=codefactor&logoColor=39FF14" />
 <img src="https://img.shields.io/badge/LOCATION-TAMIL_NADU,_INDIA-00F0FF?style=for-the-badge&labelColor=0D1117&logo=googlemaps&logoColor=00F0FF" />
 <img src="https://img.shields.io/badge/CLASS_OF-2028-B026FF?style=for-the-badge&labelColor=0D1117&logo=education&logoColor=B026FF" />
+<img src="https://img.shields.io/badge/STACK-ECE_x_AI_x_IoT-FF2D95?style=for-the-badge&labelColor=0D1117&logo=cpu&logoColor=FF2D95" />
 
 <br/><br/>
 
-<!-- VISITOR COUNTER -->
+<!-- COUNTERS -->
 <img src="https://komarev.com/ghpvc/?username=sabeeshvar&label=Profile+Visitors&color=00F0FF&style=for-the-badge" />
+<img src="https://img.shields.io/github/followers/sabeeshvar?color=B026FF&label=FOLLOWERS&style=for-the-badge&logo=github" />
+<img src="https://img.shields.io/github/stars/sabeeshvar?color=FFB800&label=TOTAL+STARS&style=for-the-badge&logo=github" />
 
 <br/><br/>
 
-<!-- SOCIALS -->
+<!-- SOCIAL BUTTONS -->
 <a href="https://github.com/sabeeshvar"><img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&labelColor=0D1117&logo=github&logoColor=white" /></a>
 <a href="#"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&labelColor=0D1117&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:sabeeshvar@gmail.com"><img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&labelColor=0D1117&logo=gmail&logoColor=white" /></a>
@@ -32,7 +35,9 @@
 
 <br/>
 
+<div align="center">
 <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/rainbow.gif" width="100%" height="3px"/>
+</div>
 
 <!-- SECTION 2: ABOUT ME -->
 ## ⚡ system.whoami()
@@ -46,16 +51,17 @@ identity:
   name        : "Sabeeshvar M."
   role        : "ECE Undergrad | Semester 4"
   institution : "VSB Engineering College"
+  department  : "ECE"
   cgpa        : 7.8 / 10.0
   graduation  : 2028
   location    : "Tamil Nadu, India"
   focus       :
-    - "Electronics & Hardware"
+    - "Electronics & Circuits"
     - "Embedded Systems & Microcontrollers"
     - "Artificial Intelligence & ML"
     - "IoT & Sensor Networks"
     - "Smart Agriculture Automation"
-  mission     : "Turning circuits, code and creativity into real-world impact."
+  mission     : "Building intelligent technology that connects electronics, AI and real-world impact."
 ```
 
     </td>
@@ -68,37 +74,39 @@ identity:
 <br/>
 
 <details>
-  <summary>🎓 Education Details</summary>
-  <br/>
-  <table>
-    <tr>
-      <th align="left" width="40%">DEGREE / QUALIFICATION</th>
-      <th align="left" width="35%">INSTITUTION</th>
-      <th align="center" width="25%">METRICS / YEAR</th>
-    </tr>
-    <tr>
-      <td><b>B.E. Electronics & Communication Engineering</b></td>
-      <td>VSB Engineering College</td>
-      <td align="center"><b>CGPA 7.8</b> • 4th Sem (Grad 2028)</td>
-    </tr>
-    <tr>
-      <td><b>Class 12 (Higher Secondary)</b></td>
-      <td>Veveaham Matric Hr. Sec. School</td>
-      <td align="center"><b>88.8%</b></td>
-    </tr>
-    <tr>
-      <td><b>Class 10 (SSLC)</b></td>
-      <td>Thebmalar Matric Hr. Sec. School</td>
-      <td align="center"><b>88.8%</b></td>
-    </tr>
-  </table>
+<summary>🎓 Education Details</summary>
+<br/>
+<table>
+  <tr>
+    <th align="left" width="40%">DEGREE / QUALIFICATION</th>
+    <th align="left" width="35%">INSTITUTION</th>
+    <th align="center" width="25%">METRICS / YEAR</th>
+  </tr>
+  <tr>
+    <td><b>B.E. Electronics & Communication Engineering</b></td>
+    <td>VSB Engineering College</td>
+    <td align="center"><b>CGPA 7.8</b> • 4th Sem (Grad 2028)</td>
+  </tr>
+  <tr>
+    <td><b>Class 12 (Higher Secondary)</b></td>
+    <td>Veveaham Matric Hr. Sec. School</td>
+    <td align="center"><b>88.8%</b></td>
+  </tr>
+  <tr>
+    <td><b>Class 10 (SSLC)</b></td>
+    <td>Thebmalar Matric Hr. Sec. School</td>
+    <td align="center"><b>88.8%</b></td>
+  </tr>
+</table>
 </details>
 
 <br/>
 
+<div align="center">
 <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/rainbow.gif" width="100%" height="3px"/>
+</div>
 
-<!-- SECTION 3: TECH ARSENAL -->
+<!-- SECTION 3: TECH STACK -->
 ## 🛠️ tech.stack()
 
 <div align="center">
@@ -119,7 +127,7 @@ identity:
 
 ### ▸ TOOLS & AI
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=tensorflow,git,github,vscode,figma" />
+  <img src="https://skillicons.dev/icons?i=tensorflow,git,github,vscode" />
 </a>
 
 <br/><br/>
@@ -142,14 +150,16 @@ identity:
 
 <br/>
 
+<div align="center">
 <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/rainbow.gif" width="100%" height="3px"/>
+</div>
 
-<!-- SECTION 4: FEATURED PROJECT -->
+<!-- SECTION 4: FLAGSHIP PROJECT -->
 ## 🌾 flagship.project()
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=cylinder&height=180&color=gradient&customColorList=39FF14,00F0FF&text=AGROPULSE&fontSize=60&desc=Smart%20Agriculture%20System%20Using%20Sensors%20%26%20AI&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20&text=AGROPULSE&fontSize=42&fontAlignY=40&desc=Smart%20Agriculture%20System%20Using%20Sensors%20%26%20AI&descAlignY=60&descSize=14&fontColor=ffffff" width="100%"/>
 
 <br/>
 
@@ -166,16 +176,16 @@ identity:
     <td width="50%" valign="top">
       <h3 align="center">🎯 CORE CAPABILITIES</h3>
       <ul>
-        <li><b>Sensor-Based Field Monitoring:</b> Tracking soil moisture, humidity, temperature, and nutrient metrics in real-time.</li>
+        <li><b>Sensor-Based Field Monitoring:</b> Tracking soil moisture, humidity, temperature, and NPK metrics.</li>
         <li><b>AI-Based Crop Recommendations:</b> Intelligent crop and soil advisories matching predictive models.</li>
-        <li><b>Smart Irrigation Guidance:</b> Automated closed-loop watering actuation based on moisture analytics.</li>
-        <li><b>Weather-Based Farming Insights:</b> Live weather forecast telemetry piped directly to decision algorithms.</li>
+        <li><b>Smart Irrigation Guidance:</b> Automated closed-loop watering actuation based on analytics.</li>
+        <li><b>Weather-Based Farming Insights:</b> Live weather forecast telemetry piped to decision models.</li>
         <li><b>Crop Disease Diagnosis:</b> AI-driven image evaluation for early pathogen detection.</li>
         <li><b>Farmer-Focused Dashboard:</b> Unified visual web & mobile interface for operational alerts.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">⚙️ TECH & FRAMEWORKS</h3>
+      <h3 align="center">⚙️ TECH STACK</h3>
 
 ```diff
 + Artificial Intelligence
@@ -209,7 +219,9 @@ flowchart LR
 
 <br/>
 
+<div align="center">
 <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/rainbow.gif" width="100%" height="3px"/>
+</div>
 
 <!-- SECTION 5: OTHER PROJECTS -->
 ## 🚀 additional.projects()
@@ -255,9 +267,11 @@ flowchart LR
 
 <br/>
 
+<div align="center">
 <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/rainbow.gif" width="100%" height="3px"/>
+</div>
 
-<!-- SECTION 6: EXPERIENCE & INTERNSHIPS -->
+<!-- SECTION 6: EXPERIENCE -->
 ## 💼 industry.exposure()
 
 <table>
@@ -289,9 +303,11 @@ flowchart LR
 
 <br/>
 
+<div align="center">
 <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/rainbow.gif" width="100%" height="3px"/>
+</div>
 
-<!-- SECTION 7: CERTIFICATIONS & HACKATHONS -->
+<!-- SECTION 7: CERTS & ACHIEVEMENTS -->
 ## 🏆 achievements.verify()
 
 <table>
@@ -301,7 +317,7 @@ flowchart LR
       <ul>
         <li><b>Smart India Hackathon (SIH):</b> Participant building real-world tech solutions.</li>
         <li><b>Liro 2026:</b> Participant developing sustainable engineering projects.</li>
-        <li><b>Electronics Club Member:</b> Active contributor organizing club events and technical activities.</li>
+        <li><b>Electronics Club Member:</b> Active contributor organizing club events and activities.</li>
         <li><b>Technical Event Participant:</b> Engaging in collegiate technical symposiums.</li>
         <li><b>Sports Achievements:</b> Handball and Kabaddi team player.</li>
       </ul>
@@ -321,9 +337,11 @@ flowchart LR
 
 <br/>
 
+<div align="center">
 <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/rainbow.gif" width="100%" height="3px"/>
+</div>
 
-<!-- SECTION 8: GITHUB ANALYTICS & COMMITS -->
+<!-- SECTION 8: GITHUB ANALYTICS -->
 ## 📊 github.analytics()
 
 <div align="center">
@@ -353,20 +371,22 @@ flowchart LR
 <br/><br/>
 
 <!-- ROW 4: CONTRIBUTION SNAKE -->
-<img src="https://github.com/sabeeshvar/sabeeshvar/blob/output/github-contribution-grid-snake-dark.svg" width="100%" />
+<img src="https://raw.githubusercontent.com/sabeeshvar/sabeeshvar/output/github-contribution-grid-snake-dark.svg" width="100%" />
 
 </div>
 
 <br/>
 
+<div align="center">
 <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/rainbow.gif" width="100%" height="3px"/>
+</div>
 
-<!-- SECTION 9: BUILDING BEYOND CODE (VISION) -->
+<!-- SECTION 9: VISION -->
 ## 🚀 entrepreneurial.vision()
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=180&color=gradient&customColorList=B026FF,FF2D95&text=BUILDING%20BEYOND%20CODE&fontSize=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=gradient&customColorList=14,20,24&text=BUILDING%20BEYOND%20CODE&fontSize=36&fontAlignY=40&desc=Electronics%20%2B%20AI%20%2B%20Embedded%20%2B%20Impact&descAlignY=62&descSize=14&fontColor=ffffff" width="100%"/>
 
 <br/>
 
@@ -395,9 +415,11 @@ mindmap
 
 <br/>
 
+<div align="center">
 <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/rainbow.gif" width="100%" height="3px"/>
+</div>
 
-<!-- SECTION 10: CONNECT WITH ME -->
+<!-- SECTION 10: CONNECT -->
 ## 🌐 connect.init()
 
 <div align="center">
@@ -434,6 +456,12 @@ mindmap
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=gradient&customColorList=00F0FF,B026FF,FF2D95&text=Engineering%20x%20Intelligence%20x%20Impact&fontSize=28" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=160&color=gradient&customColorList=12,15,20,24&section=footer&text=Engineering%20x%20Intelligence%20x%20Impact&fontSize=24&fontAlignY=55&fontColor=ffffff" width="100%"/>
+
+<br/><br/>
+
+<p align="center">
+  <b>An engineer's digital identity — not just a GitHub README.</b>
+</p>
 
 </div>
