@@ -1,12 +1,12 @@
 <div align="center">
 
 <!-- HERO BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&customColorList=12,15,20,24&section=header&text=SABEESHVAR%20M.&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=ECE%20ENGINEER%20%7C%20AI%20BUILDER%20%7C%20EMBEDDED%20ENTHUSIAST&descAlignY=55&descSize=16&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=280&color=gradient&customColorList=12,15,20,24&section=header&text=SABEESHVAR%20M.&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=ECE%20ENGINEER%20%7C%20AI%20BUILDER%20%7C%20EMBEDDED%20ENTHUSIAST&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
 
 <br/>
 
 <!-- TYPING SVG -->
-<a href="#"><img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=20&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=800&height=50&lines=Building+intelligent+technology+that+connects+electronics%2C+AI+and+real-world+impact.;Electronics+x+AI+x+Embedded+x+IoT;From+circuits+to+startups;Hackathon+builder.+Future+entrepreneur." alt="Typing SVG" /></a>
+<a href="#"><img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=20&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=800&height=50&lines=Building+intelligent+technology+that+connects;electronics%2C+AI+and+real-world+impact.;From+circuits+to+startups.;Hackathon+builder.+Future+entrepreneur." alt="Typing SVG" /></a>
 
 <br/><br/>
 
@@ -14,14 +14,11 @@
 <img src="https://img.shields.io/badge/STATUS-AVAILABLE_FOR_COLLAB-39FF14?style=for-the-badge&labelColor=0D1117&logo=codefactor&logoColor=39FF14" />
 <img src="https://img.shields.io/badge/LOCATION-TAMIL_NADU,_INDIA-00F0FF?style=for-the-badge&labelColor=0D1117&logo=googlemaps&logoColor=00F0FF" />
 <img src="https://img.shields.io/badge/CLASS_OF-2028-B026FF?style=for-the-badge&labelColor=0D1117&logo=education&logoColor=B026FF" />
-<img src="https://img.shields.io/badge/STACK-ECE_x_AI_x_IoT-FF2D95?style=for-the-badge&labelColor=0D1117&logo=cpu&logoColor=FF2D95" />
 
 <br/><br/>
 
-<!-- COUNTERS -->
+<!-- VISITOR COUNTER -->
 <img src="https://komarev.com/ghpvc/?username=sabeeshvar&label=Profile+Visitors&color=00F0FF&style=for-the-badge" />
-<img src="https://img.shields.io/github/followers/sabeeshvar?color=B026FF&label=FOLLOWERS&style=for-the-badge&logo=github" />
-<img src="https://img.shields.io/github/stars/sabeeshvar?color=FFB800&label=TOTAL+STARS&style=for-the-badge&logo=github" />
 
 <br/><br/>
 
@@ -106,7 +103,7 @@ identity:
 <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/rainbow.gif" width="100%" height="3px"/>
 </div>
 
-<!-- SECTION 3: TECH STACK -->
+<!-- SECTION 3: TECH ARSENAL -->
 ## 🛠️ tech.stack()
 
 <div align="center">
@@ -127,7 +124,7 @@ identity:
 
 ### ▸ TOOLS & AI
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=tensorflow,git,github,vscode" />
+  <img src="https://skillicons.dev/icons?i=tensorflow,git,github,vscode,figma" />
 </a>
 
 <br/><br/>
@@ -154,12 +151,12 @@ identity:
 <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/rainbow.gif" width="100%" height="3px"/>
 </div>
 
-<!-- SECTION 4: FLAGSHIP PROJECT -->
+<!-- SECTION 4: FEATURED PROJECT -->
 ## 🌾 flagship.project()
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20&text=AGROPULSE&fontSize=42&fontAlignY=40&desc=Smart%20Agriculture%20System%20Using%20Sensors%20%26%20AI&descAlignY=60&descSize=14&fontColor=ffffff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20&text=AGROPULSE&fontSize=40&fontAlignY=38&desc=Smart%20Agriculture%20System%20Using%20Sensors%20%26%20AI&descAlignY=60&descSize=14&fontColor=ffffff" width="100%"/>
 
 <br/>
 
@@ -176,10 +173,10 @@ identity:
     <td width="50%" valign="top">
       <h3 align="center">🎯 CORE CAPABILITIES</h3>
       <ul>
-        <li><b>Sensor-Based Field Monitoring:</b> Tracking soil moisture, humidity, temperature, and NPK metrics.</li>
+        <li><b>Sensor-Based Field Monitoring:</b> Tracking soil moisture, humidity, temperature, and NPK metrics in real-time.</li>
         <li><b>AI-Based Crop Recommendations:</b> Intelligent crop and soil advisories matching predictive models.</li>
-        <li><b>Smart Irrigation Guidance:</b> Automated closed-loop watering actuation based on analytics.</li>
-        <li><b>Weather-Based Farming Insights:</b> Live weather forecast telemetry piped to decision models.</li>
+        <li><b>Smart Irrigation Guidance:</b> Automated closed-loop watering actuation based on moisture analytics.</li>
+        <li><b>Weather-Based Farming Insights:</b> Live weather forecast telemetry piped directly to decision algorithms.</li>
         <li><b>Crop Disease Diagnosis:</b> AI-driven image evaluation for early pathogen detection.</li>
         <li><b>Farmer-Focused Dashboard:</b> Unified visual web & mobile interface for operational alerts.</li>
       </ul>
@@ -271,7 +268,7 @@ flowchart LR
 <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/rainbow.gif" width="100%" height="3px"/>
 </div>
 
-<!-- SECTION 6: EXPERIENCE -->
+<!-- SECTION 6: EXPERIENCE & INTERNSHIPS -->
 ## 💼 industry.exposure()
 
 <table>
@@ -307,7 +304,7 @@ flowchart LR
 <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/rainbow.gif" width="100%" height="3px"/>
 </div>
 
-<!-- SECTION 7: CERTS & ACHIEVEMENTS -->
+<!-- SECTION 7: CERTIFICATIONS & HACKATHONS -->
 ## 🏆 achievements.verify()
 
 <table>
@@ -341,7 +338,7 @@ flowchart LR
 <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/rainbow.gif" width="100%" height="3px"/>
 </div>
 
-<!-- SECTION 8: GITHUB ANALYTICS -->
+<!-- SECTION 8: GITHUB ANALYTICS (GUARANTEED WORKING URLS) -->
 ## 📊 github.analytics()
 
 <div align="center">
@@ -350,10 +347,10 @@ flowchart LR
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=sabeeshvar&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&custom_title=Sabeeshvar's+GitHub+Stats" height="180" />
+      <img src="https://github-readme-stats.vercel.app/api?username=sabeeshvar&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true" height="175" />
     </td>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sabeeshvar&layout=compact&theme=tokyonight&hide_border=true" height="180" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sabeeshvar&layout=compact&theme=tokyonight&hide_border=true" height="175" />
     </td>
   </tr>
 </table>
@@ -361,17 +358,17 @@ flowchart LR
 <br/>
 
 <!-- ROW 2: STREAK STATS -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=sabeeshvar&theme=tokyonight&hide_border=true" width="100%" />
+<img src="https://streak-stats.demolab.com/?user=sabeeshvar&theme=tokyonight&hide_border=true" width="100%" />
 
 <br/><br/>
 
 <!-- ROW 3: ACTIVITY GRAPH -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=sabeeshvar&bg_color=0D1117&color=00F0FF&line=B026FF&point=FF2D95&area=true&hide_border=true" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=sabeeshvar&theme=react-dark&hide_border=true" width="100%" />
 
 <br/><br/>
 
-<!-- ROW 4: CONTRIBUTION SNAKE -->
-<img src="https://raw.githubusercontent.com/sabeeshvar/sabeeshvar/output/github-contribution-grid-snake-dark.svg" width="100%" />
+<!-- ROW 4: CONTRIBUTION HEATMAP -->
+<img src="https://ghchart.rshah.org/00F0FF/sabeeshvar" width="100%" />
 
 </div>
 
@@ -381,12 +378,12 @@ flowchart LR
 <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/rainbow.gif" width="100%" height="3px"/>
 </div>
 
-<!-- SECTION 9: VISION -->
+<!-- SECTION 9: ENTREPRENEURIAL VISION -->
 ## 🚀 entrepreneurial.vision()
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=gradient&customColorList=14,20,24&text=BUILDING%20BEYOND%20CODE&fontSize=36&fontAlignY=40&desc=Electronics%20%2B%20AI%20%2B%20Embedded%20%2B%20Impact&descAlignY=62&descSize=14&fontColor=ffffff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=gradient&customColorList=14,20,24&text=BUILDING%20BEYOND%20CODE&fontSize=34&fontAlignY=38&desc=Electronics%20%2B%20AI%20%2B%20Embedded%20%2B%20Impact&descAlignY=60&descSize=14&fontColor=ffffff" width="100%"/>
 
 <br/>
 
@@ -456,7 +453,7 @@ mindmap
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=160&color=gradient&customColorList=12,15,20,24&section=footer&text=Engineering%20x%20Intelligence%20x%20Impact&fontSize=24&fontAlignY=55&fontColor=ffffff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=gradient&customColorList=12,15,20,24&section=footer&text=Engineering%20x%20Intelligence%20x%20Impact&fontSize=24&fontAlignY=50&fontColor=ffffff" width="100%"/>
 
 <br/><br/>
 
