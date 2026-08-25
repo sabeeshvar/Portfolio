@@ -17,7 +17,7 @@ Designed with a **Futuristic Digital Engineering Lab** visual identity, this web
 - **Interactive Tech Constellation**: Interactive skills matrix mapping dependencies between Programming, AI & Data, Electronics, Web Development, and Innovation.
 - **AgroPulse Flagship Project Pipeline**: Interactive visual pipeline (`FARM` → `SENSORS` → `CLOUD DATA` → `AI ENGINE` → `SMART DECISION` → `FARMER DASHBOARD`) with live telemetry simulation.
 - **System Architecture Deep-Dive Modals**: Comprehensive technical modal views detailing Problem, Solution, Features, Tech Stack, My Role, and Future Development Roadmaps for projects.
-- **Futuristic Vertical Academic Timeline**: Glowing nodes highlighting B.E. ECE (7.8 CGPA), Class 12 (88.8%), and Class 10 (88.8%).
+- **Futuristic Vertical Academic Timeline**: Glowing nodes highlighting B.E. ECE (8.0 CGPA), Class 12 (81.33%), and Class 10 (81.33%).
 - **Entrepreneurial "Idea Core"**: Central reactor core visualizing the convergence of Electronics, AI, IoT, Embedded Systems, Smart Agriculture, and Entrepreneurship.
 - **Transmission Contact Console**: Encrypted-style communication form with live telemetry feedback and interactive celebration effects.
 - **Resume CV Viewer & Print System**: Formatted modal for reviewing, printing, or exporting full CV details.

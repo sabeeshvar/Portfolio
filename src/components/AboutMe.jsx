@@ -101,7 +101,7 @@ export default function AboutMe() {
               </div>
               <div>
                 <span className="text-gray-500 block">ACADEMIC STANDING</span>
-                <span className="font-semibold text-[#00F0FF]">7.8 CGPA</span>
+                <span className="font-semibold text-[#00F0FF]">8.0 CGPA</span>
               </div>
               <div>
                 <span className="text-gray-500 block">GRADUATION</span>

@@ -31,7 +31,7 @@ export default function Hero({ onOpenResume }) {
           <span className="w-2 h-2 rounded-full bg-[#00F0FF] animate-pulse" />
           <span>STATUS: SIH 2026 INNOVATOR & ECE BUILDER</span>
           <span className="text-gray-600">|</span>
-          <span className="text-gray-300">SEM 4 • CGPA 7.8</span>
+          <span className="text-gray-300">SEM 4 • CGPA 8.0</span>
         </div>
 
         {/* Big Name Banner */}
@@ -130,7 +130,7 @@ export default function Hero({ onOpenResume }) {
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-4 h-4 text-[#00F0FF]" />
-              <span>7.8 CGPA • Class of 2028</span>
+              <span>8.0 CGPA • Class of 2028</span>
             </div>
             <div className="flex items-center gap-2">
               <MapPin className="w-4 h-4 text-[#00F0FF]" />

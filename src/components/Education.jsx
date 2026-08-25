@@ -7,7 +7,7 @@ export default function Education() {
       degree: 'B.E. Electronics & Communication Engineering',
       institution: 'VSB Engineering College',
       status: 'Current Undergrad • 4th Semester',
-      metrics: 'CGPA: 7.8 / 10.0',
+      metrics: 'CGPA: 8.0 / 10.0',
       period: '2024 — 2028 (Expected)',
       location: 'Tamil Nadu, India',
       details: [
@@ -20,24 +20,24 @@ export default function Education() {
       degree: 'Class 12 (Higher Secondary Certificate)',
       institution: 'Veveaham Matric Hr. Sec. School',
       status: 'HSC Passed',
-      metrics: 'Scored: 88.8%',
+      metrics: 'Scored: 81.33%',
       period: 'Completed',
       location: 'Tamil Nadu, India',
       details: [
         'Advanced Mathematics, Physics, Chemistry, and Computer Science foundation.',
-        'Achieved 88.8% aggregate score demonstrating analytical academic excellence.',
+        'Achieved 81.33% aggregate score demonstrating analytical academic excellence.',
       ],
     },
     {
       degree: 'Class 10 (SSLC Examination)',
       institution: 'Thebmalar Matric Hr. Sec. School',
       status: 'SSLC Passed',
-      metrics: 'Scored: 88.8%',
+      metrics: 'Scored: 81.33%',
       period: 'Completed',
       location: 'Tamil Nadu, India',
       details: [
         'Strong foundational grounding in Science, Mathematics, and Technology basics.',
-        'Consistently rated top tier performer with 88.8% score.',
+        'Consistently rated top tier performer with 81.33% score.',
       ],
     },
   ];
