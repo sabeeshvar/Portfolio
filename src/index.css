@@ -2,11 +2,10 @@
 
 @layer base {
   :root {
-    --bg-dark: #090d14;
-    --card-bg: #0d131f;
-    --amber-gold: #ffc700;
-    --cyan-accent: #00f0ff;
-    --amber-hover-bg: rgba(255, 199, 0, 0.08);
+    --bg-dark: #070a0f;
+    --card-bg: #0c121e;
+    --cyan-primary: #00f0ff;
+    --gold-accent: #ffd700;
     --slate-accent: #94a3b8;
   }
 }
@@ -16,54 +15,44 @@
   width: 7px;
 }
 ::-webkit-scrollbar-track {
-  background: #090d14;
+  background: #070a0f;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 199, 0, 0.3);
+  background: rgba(0, 240, 255, 0.3);
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #ffc700;
+  background: #00f0ff;
 }
 
-/* Circuit Background Grid */
+/* Circuit Background Grid - Subtle Elegant Pattern */
 .circuit-grid-pattern {
   background-image: 
-    linear-gradient(to right, rgba(255, 199, 0, 0.03) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 199, 0, 0.03) 1px, transparent 1px);
-  background-size: 40px 40px;
+    linear-gradient(to right, rgba(0, 240, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 240, 255, 0.025) 1px, transparent 1px);
+  background-size: 44px 44px;
 }
 
-/* Premium Glassmorphism card with Cyber Amber Gold hover border */
+/* Elegant & Formal Glassmorphism card */
 .glass-panel {
-  background: rgba(13, 19, 31, 0.8);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 199, 0, 0.15);
+  background: rgba(12, 18, 30, 0.82);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 240, 255, 0.16);
   transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Cursor hover on box/card: soft amber glass tint & glowing amber border */
+/* Hover: Elegant Cyan-Silver Glass Highlight & Glow */
 .glass-panel:hover {
-  background: rgba(255, 199, 0, 0.08);
-  border-color: #ffc700;
-  box-shadow: 0 0 30px rgba(255, 199, 0, 0.25);
-  transform: translateY(-4px);
+  background: rgba(0, 240, 255, 0.07);
+  border-color: #00f0ff;
+  box-shadow: 0 0 25px rgba(0, 240, 255, 0.25);
+  transform: translateY(-3px);
 }
 
-/* Interactive node hover */
-.interactive-node-hover {
-  transition: all 0.3s ease;
-}
-.interactive-node-hover:hover {
-  border-color: #ffc700 !important;
-  box-shadow: 0 0 20px rgba(255, 199, 0, 0.3) !important;
-  background: rgba(255, 199, 0, 0.1) !important;
-}
-
-/* Glowing text effects */
-.glow-text-gold {
-  text-shadow: 0 0 16px rgba(255, 199, 0, 0.6);
+/* Luminous text glows */
+.glow-text-white {
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(0, 240, 255, 0.4);
 }
 .glow-text-cyan {
   text-shadow: 0 0 16px rgba(0, 240, 255, 0.6);
@@ -78,12 +67,12 @@
 .typewriter-cursor {
   display: inline-block;
   width: 4px;
-  height: 1em;
-  background-color: #ffc700;
+  height: 0.9em;
+  background-color: #00f0ff;
   margin-left: 4px;
   vertical-align: middle;
   animation: blink-cursor 0.8s infinite;
-  box-shadow: 0 0 10px #ffc700;
+  box-shadow: 0 0 12px #00f0ff;
 }
 
 /* Radar pulse animation */
