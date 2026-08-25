@@ -21,7 +21,7 @@
 
 <!-- SOCIAL BADGES -->
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-000000?style=for-the-badge&logo=googlechrome&logoColor=00E5FF)](#)
-[![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](#)
+[![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sabeeshvar)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
 [![Email](https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white)](#)
 
@@ -387,25 +387,25 @@ graph TD
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=nord&margin-w=15&margin-h=15" alt="Profile Trophies" />
+<img src="https://github-profile-trophy.vercel.app/?username=sabeeshvar&theme=nord&margin-w=15&margin-h=15" alt="Profile Trophies" />
 
 <br/><br/>
 
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=dark&title_color=00E5FF&text_color=E6EDF3&icon_color=9C27FF&bg_color=0D1117&border_color=00E5FF" alt="GitHub Stats" width="100%" />
+      <img src="https://github-readme-stats.vercel.app/api?username=sabeeshvar&show_icons=true&theme=dark&title_color=00E5FF&text_color=E6EDF3&icon_color=9C27FF&bg_color=0D1117&border_color=00E5FF" alt="GitHub Stats" width="100%" />
     </td>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=dark&title_color=00E5FF&text_color=E6EDF3&bg_color=0D1117&border_color=00E5FF" alt="Top Languages" width="100%" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sabeeshvar&layout=compact&theme=dark&title_color=00E5FF&text_color=E6EDF3&bg_color=0D1117&border_color=00E5FF" alt="Top Languages" width="100%" />
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=black-ice&ring=00E5FF&fire=9C27FF&currStreakNum=00E5FF" alt="Streak Stats" width="100%" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=sabeeshvar&theme=black-ice&ring=00E5FF&fire=9C27FF&currStreakNum=00E5FF" alt="Streak Stats" width="100%" />
     </td>
     <td width="50%" align="center">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=react-dark&bg_color=0D1117&color=00E5FF&line=9C27FF&point=00E5FF" alt="Activity Graph" width="100%" />
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=sabeeshvar&theme=react-dark&bg_color=0D1117&color=00E5FF&line=9C27FF&point=00E5FF" alt="Activity Graph" width="100%" />
     </td>
   </tr>
 </table>
@@ -426,7 +426,7 @@ graph TD
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-[![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](#)
+[![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sabeeshvar)
 [![Email](https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white)](#)
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-000000?style=for-the-badge&logo=googlechrome&logoColor=00E5FF)](#)
 
@@ -442,6 +442,6 @@ graph TD
 <br/><br/>
 
 <!-- VISITOR COUNTER -->
-![Profile Views](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&color=00E5FF&style=flat-square&label=PROFILE+VIEWS)
+![Profile Views](https://komarev.com/ghpvc/?username=sabeeshvar&color=00E5FF&style=flat-square&label=PROFILE+VIEWS)
 
 </div>
