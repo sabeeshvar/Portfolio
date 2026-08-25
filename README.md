@@ -1,26 +1,36 @@
 <div align="center">
 
 <!-- HERO HEADER BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,40:1F1636,80:9C27FF,100:00E5FF&height=220&section=header&text=SABEESHVAR%20M.&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=ECE%20ENGINEER%20%E2%80%A2%20AI%20BUILDER%20%E2%80%A2%20EMBEDDED%20SYSTEMS%20ENTHUSIAST&descSize=15&descAlignY=62" width="100%" alt="Header Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,35:B026FF,70:FF2D95,100:00F0FF&height=240&section=header&text=SABEESHVAR%20M.&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=ECE%20ENGINEER%20%E2%80%A2%20AI%20BUILDER%20%E2%80%A2%20EMBEDDED%20SYSTEMS%20ENTHUSIAST%20%E2%80%A2%20INNOVATOR&descSize=15&descAlignY=62" width="100%" alt="Cyberpunk Header Banner" />
 
 <br/>
 
-<!-- ANIMATED TYPING SVG -->
+<!-- ASCII TERMINAL HEADER -->
+```text
+  ____    _    ____  _____ _____ ____  _   ___   ___  ____    __  __ 
+ / ___|  / \  | __ )| _____| ____/ ___|| | | \ \ / / \|  _ \  |  \/  |
+ \___ \ / _ \ |  _ \|  _|  |  _| \___ \| |_| |\ V /| |_) | | |\/| |
+  ___) / ___ \| |_) | |___ | |___ ___) |  _  | | | |  _ <  | |  | |
+ |____/_/   \_\____/|_____|_____|____/|_| |_| |_| |_| \_\ |_|  |_|
+```
+
+<!-- ANIMATED MULTI-LINE TYPING SVG -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3500&pause=1000&color=00E5FF&center=true&vCenter=true&width=750&lines=Building+intelligent+technology+that+connects+electronics%2C+AI+and+real-world+impact.;ECE+Engineer+%E2%80%A2+AI+Builder+%E2%80%A2+Embedded+Systems+Enthusiast;Innovator+%E2%80%A2+Future+Entrepreneur" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=750&lines=Building+intelligent+technology+that+connects+electronics%2C+AI+and+real-world+impact.;Turning+circuits%2C+code+and+creativity+into+real-world+solutions.;Smart+Agriculture+%C3%97+IoT+%C3%97+Embedded+Systems+%C3%97+AI;From+sensors+to+startups+%E2%80%94+engineering+the+future.;Hackathon+builder.+Innovation+driver.+Future+entrepreneur." alt="Typing SVG" />
 </a>
 
 <br/><br/>
 
-<!-- STATUS BADGES -->
-![STATUS](https://img.shields.io/badge/STATUS-ACTIVE_BUILDER-00E5FF?style=for-the-badge&logo=codefactor&logoColor=black)
-![LOCATION](https://img.shields.io/badge/LOCATION-TAMIL_NADU,_INDIA-9C27FF?style=for-the-badge&logo=googlemaps&logoColor=white)
-![GRADUATION](https://img.shields.io/badge/CLASS_OF-2028-0D1117?style=for-the-badge&logo=education&logoColor=00E5FF&labelColor=161B22)
+<!-- NEON STATUS BADGES -->
+![COLLABORATION](https://img.shields.io/badge/STATUS-AVAILABLE_FOR_COLLABORATION-00F0FF?style=for-the-badge&logo=codefactor&logoColor=black)
+![LOCATION](https://img.shields.io/badge/LOCATION-TAMIL_NADU,_INDIA-B026FF?style=for-the-badge&logo=googlemaps&logoColor=white)
+![GRADUATION](https://img.shields.io/badge/GRADUATION-CLASS_OF_2028-FF2D95?style=for-the-badge&logo=education&logoColor=white)
+![DOMAIN](https://img.shields.io/badge/DOMAIN-ECE_%C3%97_AI_%C3%97_IoT-39FF14?style=for-the-badge&logo=cpu&logoColor=black)
 
 <br/><br/>
 
-<!-- SOCIAL BADGES -->
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-000000?style=for-the-badge&logo=googlechrome&logoColor=00E5FF)](#)
+<!-- SOCIAL ACTION BADGES -->
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-000000?style=for-the-badge&logo=googlechrome&logoColor=00F0FF)](#)
 [![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sabeeshvar)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
 [![Email](https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white)](#)
@@ -32,76 +42,137 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 <!-- SECTION 2: ABOUT ME -->
-## `> whoami`
+## `>_ whoami`
 
 ```yaml
 engineer:
-  name: "Sabeeshvar M."
-  role: "Electronics & Communication Engineering Student"
-  institution: "VSB Engineering College"
-  department: "ECE"
-  current_semester: "5th Semester"
-  cgpa: 8.0
-  expected_graduation: 2028
-  location: "Tamil Nadu, India"
-  career_goal: "Future Entrepreneur and Technology Builder"
-  mission: "Building intelligent technology that connects electronics, AI and real-world impact."
-  mode: "Continuous Innovation & Research"
+  name        : "Sabeeshvar M."
+  role        : "ECE Undergraduate | 4th Semester"
+  institution : "VSB Engineering College"
+  cgpa        : 7.8
+  graduation  : 2028
+  focus       : ["Electronics", "AI", "Embedded Systems", "IoT", "Smart Agriculture"]
+  mission     : "Turning circuits, code and creativity into real-world impact."
+  mode        : "Learning • Building • Innovating • Scaling"
 ```
 
-> **Electronics & Communication Engineering undergraduate** exploring the powerful intersection of electronics, embedded hardware, and artificial intelligence. Driven by a passion for hardware that thinks and software that solves real-world problems. Primary focus centers on smart agriculture, IoT telemetry, high-impact hackathons, and hardware-software integration with a long-term vision of establishing a technology-driven enterprise.
+> **Electronics & Communication Engineering undergraduate** exploring the high-octane intersection of embedded hardware, microcontrollers, and artificial intelligence. Passionate about building hardware that thinks and software that solves pressing real-world challenges—with a special focus on smart agriculture, IoT telemetry, high-impact hackathons, and scalable technological enterprise creation.
+
+<br/>
+
+### 🎓 ACADEMIC ROADMAP
+
+<table>
+  <tr>
+    <th align="left" width="40%">DEGREE / QUALIFICATION</th>
+    <th align="left" width="35%">INSTITUTION</th>
+    <th align="center" width="25%">METRICS / YEAR</th>
+  </tr>
+  <tr>
+    <td><b>B.E. Electronics & Communication Engineering</b></td>
+    <td>VSB Engineering College</td>
+    <td align="center"><b>CGPA 7.8</b> • 4th Sem (Grad 2028)</td>
+  </tr>
+  <tr>
+    <td><b>Class 12 (Higher Secondary)</b></td>
+    <td>Veveaham Matric Hr. Sec. School</td>
+    <td align="center"><b>88.8%</b></td>
+  </tr>
+  <tr>
+    <td><b>Class 10 (SSLC)</b></td>
+    <td>Thebmalar Matric Hr. Sec. School</td>
+    <td align="center"><b>88.8%</b></td>
+  </tr>
+</table>
 
 <br/>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-<!-- SECTION 3: TECH STACK -->
-## `> tech.stack`
+<!-- SECTION 3: TECH MATRIX & SKILL METRICS -->
+## `>_ tech.matrix`
 
 <div align="center">
 
-### 🛠️ CORE TOOLKIT & TECHNOLOGIES
+### 🛠️ HARDWARE × SOFTWARE TOOLKIT
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=java,py,html,css,tensorflow,arduino,raspberrypi,git,github,vscode&theme=dark&perline=10" alt="Skill Icons" />
+  <img src="https://skillicons.dev/icons?i=java,py,html,css,tensorflow,arduino,raspberrypi,git,github,vscode&theme=dark&perline=10" alt="Skill Icons Matrix" />
 </a>
 
 <br/><br/>
 
-### 🌐 DOMAINS & SPECIALIZATIONS
+### 🔮 FLOATING SPECIALIZATION CLUSTERS
 
-![Electronics](https://img.shields.io/badge/Electronics-00E5FF?style=flat-square&logo=cpu&logoColor=black)
-![Embedded Systems](https://img.shields.io/badge/Embedded_Systems-9C27FF?style=flat-square&logo=microchip&logoColor=white)
-![IoT](https://img.shields.io/badge/IoT-00E5FF?style=flat-square&logo=internetofthings&logoColor=black)
-![VLSI](https://img.shields.io/badge/VLSI-9C27FF?style=flat-square&logo=circuit&logoColor=white)
-![Sensors](https://img.shields.io/badge/Sensors-00E5FF?style=flat-square&logo=hardware&logoColor=black)
-![Communication Systems](https://img.shields.io/badge/Communication_Systems-9C27FF?style=flat-square&logo=antenna&logoColor=white)
-![AI](https://img.shields.io/badge/AI-00E5FF?style=flat-square&logo=openai&logoColor=black)
-![Data Analysis](https://img.shields.io/badge/Data_Analysis-9C27FF?style=flat-square&logo=python&logoColor=white)
-![Automation](https://img.shields.io/badge/Automation-00E5FF?style=flat-square&logo=githubactions&logoColor=black)
-![Smart Agriculture](https://img.shields.io/badge/Smart_Agriculture-2E7D32?style=flat-square&logo=leaf&logoColor=white)
+<div>
+  <!-- PROGRAMMING -->
+  ![Java](https://img.shields.io/badge/Java-00F0FF?style=flat-square&logo=openjdk&logoColor=white)
+  ![Python](https://img.shields.io/badge/Python-39FF14?style=flat-square&logo=python&logoColor=white)
+  <!-- AI & DATA -->
+  ![AI](https://img.shields.io/badge/AI-B026FF?style=flat-square&logo=openai&logoColor=white)
+  ![Data Analysis](https://img.shields.io/badge/Data_Analysis-FF2D95?style=flat-square&logo=pandas&logoColor=white)
+  ![ML Concepts](https://img.shields.io/badge/ML_Concepts-00F0FF?style=flat-square&logo=tensorflow&logoColor=white)
+  <!-- ELECTRONICS -->
+  ![Embedded Systems](https://img.shields.io/badge/Embedded_Systems-B026FF?style=flat-square&logo=microchip&logoColor=white)
+  ![Sensors](https://img.shields.io/badge/Sensors-39FF14?style=flat-square&logo=hardware&logoColor=black)
+  ![VLSI](https://img.shields.io/badge/VLSI-FF2D95?style=flat-square&logo=circuit&logoColor=white)
+  ![Communication Systems](https://img.shields.io/badge/Communication_Systems-00F0FF?style=flat-square&logo=antenna&logoColor=black)
+  <!-- DEV & INNOVATION -->
+  ![IoT](https://img.shields.io/badge/IoT-39FF14?style=flat-square&logo=internetofthings&logoColor=black)
+  ![Automation](https://img.shields.io/badge/Automation-B026FF?style=flat-square&logo=githubactions&logoColor=white)
+  ![Web Development](https://img.shields.io/badge/Web_Dev-FF2D95?style=flat-square&logo=html5&logoColor=white)
+  ![Smart Agriculture](https://img.shields.io/badge/Smart_Agriculture-2E7D32?style=flat-square&logo=leaf&logoColor=white)
+</div>
 
 </div>
+
+<br/>
+
+### 📊 DOMAIN COMPETENCY RADAR
+
+<table>
+  <tr>
+    <td width="30%"><b>Java & Object-Oriented Software</b></td>
+    <td width="70%"><img src="https://geps.dev/progress/85?dangerColor=B026FF&warningColor=00F0FF&successColor=39FF14" width="100%" /></td>
+  </tr>
+  <tr>
+    <td><b>Python & Data Analytics</b></td>
+    <td><img src="https://geps.dev/progress/90?dangerColor=B026FF&warningColor=00F0FF&successColor=39FF14" width="100%" /></td>
+  </tr>
+  <tr>
+    <td><b>Embedded Systems & Microcontrollers</b></td>
+    <td><img src="https://geps.dev/progress/88?dangerColor=B026FF&warningColor=00F0FF&successColor=39FF14" width="100%" /></td>
+  </tr>
+  <tr>
+    <td><b>AI & Machine Learning Core</b></td>
+    <td><img src="https://geps.dev/progress/82?dangerColor=B026FF&warningColor=00F0FF&successColor=39FF14" width="100%" /></td>
+  </tr>
+  <tr>
+    <td><b>IoT Telemetry & Automation</b></td>
+    <td><img src="https://geps.dev/progress/86?dangerColor=B026FF&warningColor=00F0FF&successColor=39FF14" width="100%" /></td>
+  </tr>
+</table>
 
 <br/>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-<!-- SECTION 4: FEATURED PROJECT -->
-## `> featured.project`
+<!-- SECTION 4: FEATURED FLAGSHIP PROJECT -->
+## `>_ flagship.agropulse`
 
 <div align="center">
 
-# 🌾 AgroPulse: Smart Agriculture System Using Sensors & AI
+# 🌾 AGROPULSE: SMART AGRICULTURE SYSTEM USING SENSORS & AI
 
-![FLAGSHIP_PROJECT](https://img.shields.io/badge/FLAGSHIP_PROJECT-AGROPULSE-00E5FF?style=for-the-badge&logo=target&logoColor=black)
-![STATUS](https://img.shields.io/badge/STATUS-IN_DEVELOPMENT-9C27FF?style=for-the-badge&logo=lightning&logoColor=white)
+![FLAGSHIP_PROJECT](https://img.shields.io/badge/FLAGSHIP_PROJECT-AGROPULSE-00F0FF?style=for-the-badge&logo=target&logoColor=black)
+![STATUS](https://img.shields.io/badge/STATUS-IN_DEVELOPMENT-B026FF?style=for-the-badge&logo=lightning&logoColor=white)
+![ARCHITECTURE](https://img.shields.io/badge/CORE-SENSORS_%C3%97_AI_%C3%97_IoT-FF2D95?style=for-the-badge&logo=cpu&logoColor=white)
 
 </div>
 
 <br/>
 
-> **AgroPulse** is an intelligent, end-to-end smart-agriculture platform fusing physical sensor arrays, embedded microcontrollers, and artificial intelligence models to deliver actionable precision farming telemetry and automated crop management.
+> **AgroPulse** is a next-generation smart agriculture ecosystem that bridges real-world physical sensor hardware with predictive artificial intelligence algorithms. It delivers real-time soil telemetry, automated irrigation control, dynamic weather guidance, crop disease diagnosis, and a unified farmer dashboard for optimized yield outcomes.
 
 <br/>
 
@@ -110,17 +181,17 @@ engineer:
     <td width="50%" valign="top">
       <h3 align="center">⚡ CORE CAPABILITIES</h3>
       <ul>
-        <li><b>Real-Time Sensor Monitoring:</b> Continuous tracking of soil moisture, ambient humidity, temperature, and NPK nutrient levels.</li>
-        <li><b>AI Recommendations:</b> Data-driven insights tailored to crop conditions and soil health.</li>
-        <li><b>Automated Irrigation:</b> Closed-loop irrigation actuation based on predictive moisture analytics.</li>
-        <li><b>Weather Integration:</b> Dynamic weather forecasting data piped directly to decision algorithms.</li>
-        <li><b>Disease Diagnosis:</b> Early-stage crop disease detection using intelligent pattern evaluation.</li>
-        <li><b>Farmer Dashboard:</b> Unified visual interface presenting telemetry and actionable alerts.</li>
-        <li><b>Crop Intelligence:</b> Optimization of yield outcomes through multi-sensor telemetry fusion.</li>
+        <li><b>Real-Time Sensor Telemetry:</b> Continuous monitoring of soil moisture, ambient humidity, temperature, and NPK nutrient levels.</li>
+        <li><b>Predictive AI Guidance:</b> Intelligent recommendations tailored to soil health and crop varieties.</li>
+        <li><b>Automated Irrigation Actuation:</b> Closed-loop irrigation based on real-time soil moisture analytics.</li>
+        <li><b>Weather Integration:</b> Dynamic weather data feeds integrated into decision models.</li>
+        <li><b>Early Crop Disease Diagnosis:</b> AI-driven image and pattern evaluation for disease prevention.</li>
+        <li><b>Farmer Telemetry Dashboard:</b> Intuitive dashboard presenting real-time alerts and insights.</li>
+        <li><b>Crop Intelligence:</b> Yield optimization through sensor fusion analytics.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">🧬 ARCHITECTURE & VISION</h3>
+      <h3 align="center">🧬 TECH STACK & VISION</h3>
       <p align="center">
         <code>AI</code> • <code>IoT</code> • <code>Sensors</code> • <code>Embedded Systems</code> • <code>Data Analysis</code> • <code>Smart Agriculture</code>
       </p>
@@ -130,7 +201,7 @@ engineer:
       </blockquote>
       <hr/>
       <p align="center">
-        <b>System Objective:</b> Bridge real-world hardware data collection with AI-driven analytics to maximize yield efficiency and minimize resource waste.
+        <b>Core Mission:</b> Empower farmers with automated edge hardware and AI intelligence to maximize crop output while conserving water and resources.
       </p>
     </td>
   </tr>
@@ -138,33 +209,33 @@ engineer:
 
 <br/>
 
-### 📐 AgroPulse System Architecture Flow
+### 📐 AgroPulse Cyber-Physical Architecture
 
 ```mermaid
 graph TD
-    classDef sensor fill:#0D1117,stroke:#00E5FF,stroke-width:2px,color:#00E5FF;
-    classDef embedded fill:#0D1117,stroke:#9C27FF,stroke-width:2px,color:#9C27FF;
-    classDef pipeline fill:#161B22,stroke:#00E5FF,stroke-width:1px,color:#E6EDF3;
-    classDef ai fill:#1F1636,stroke:#9C27FF,stroke-width:3px,color:#00E5FF;
-    classDef dashboard fill:#0D1117,stroke:#2E7D32,stroke-width:2px,color:#81C784;
-    classDef yield fill:#1B4D3E,stroke:#00E5FF,stroke-width:2px,color:#FFFFFF;
+    classDef sensor fill:#0D1117,stroke:#00F0FF,stroke-width:2px,color:#00F0FF;
+    classDef embedded fill:#0D1117,stroke:#B026FF,stroke-width:2px,color:#B026FF;
+    classDef pipeline fill:#161B22,stroke:#FF2D95,stroke-width:2px,color:#FF2D95;
+    classDef ai fill:#1F1636,stroke:#00F0FF,stroke-width:3px,color:#00F0FF;
+    classDef dashboard fill:#0D1117,stroke:#39FF14,stroke-width:2px,color:#39FF14;
+    classDef yield fill:#1B4D3E,stroke:#00F0FF,stroke-width:2px,color:#FFFFFF;
 
-    subgraph Edge Layer ["  HARDWARE & SENSORS  "]
+    subgraph Edge Layer [" ⚡ HARDWARE & SENSORS "]
         A[Soil & Climate Sensors] ::: sensor
-        B[Real-time Data Stream] ::: sensor
+        B[Real-Time Telemetry Stream] ::: sensor
     end
 
-    subgraph Processing Layer ["  EMBEDDED & PIPELINE  "]
-        C[Embedded Microcontroller] ::: embedded
-        D[IoT Gateway & Data Pipeline] ::: pipeline
+    subgraph Processing Layer [" 🧠 EMBEDDED & PIPELINE "]
+        C[Microcontroller Edge Node] ::: embedded
+        D[IoT Gateway & Pipeline] ::: pipeline
     end
 
-    subgraph Intelligence Layer ["  AI ENGINE  "]
-        E[AI Predictive Models & Disease Diagnosis] ::: ai
+    subgraph Intelligence Layer [" 🔮 AI ENGINE "]
+        E[Predictive AI & Disease Diagnosis] ::: ai
     end
 
-    subgraph Action Layer ["  IMPACT & ACTION  "]
-        F[Farmer Dashboard & Alerts] ::: dashboard
+    subgraph Action Layer [" 🚀 IMPACT & ACTION "]
+        F[Farmer Telemetry Dashboard] ::: dashboard
         G[Automated Irrigation & Higher Yield] ::: yield
     end
 
@@ -180,8 +251,8 @@ graph TD
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-<!-- SECTION 5: OTHER PROJECTS -->
-## `> other.projects`
+<!-- SECTION 5: OTHER PROJECT PORTFOLIO -->
+## `>_ project.labs`
 
 <table>
   <tr>
@@ -189,24 +260,24 @@ graph TD
       <h3 align="center">🌱 HarvestIQ</h3>
       <p align="center"><b>AI-Powered Smart Agriculture Platform</b></p>
       <ul>
-        <li>Intelligent crop recommendation engine based on soil parameters.</li>
-        <li>Integrated seed marketplace connecting verified suppliers.</li>
-        <li>Real-time weather telemetry and automated irrigation schedules.</li>
-        <li>Automated plant disease detection with intuitive farmer UI.</li>
+        <li>Intelligent AI crop recommendation engine driven by soil composition metrics.</li>
+        <li>Direct seed marketplace connecting verified agricultural suppliers.</li>
+        <li>Real-time weather guidance and precision irrigation scheduling algorithms.</li>
+        <li>Automated crop disease detection with a farmer-friendly web UI.</li>
       </ul>
       <br/>
       <div align="center">
-        <code>AI</code> <code>Web Dev</code> <code>Agriculture</code> <code>Data</code> <code>Smart Farming</code>
+        <code>AI</code> <code>Agriculture</code> <code>Web Development</code> <code>Data</code> <code>Smart Farming</code>
       </div>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">⚡ Embedded Systems Lab</h3>
       <p align="center"><b>Hardware × Software Integration</b></p>
       <ul>
-        <li>Custom microcontroller prototyping and sensor interfacing.</li>
-        <li>IoT device nodes with wireless data transmission protocols.</li>
-        <li>Automated hardware control routines and embedded logic.</li>
-        <li>Real-time sensor telemetry processing and hardware debugging.</li>
+        <li>Microcontroller prototyping, hardware debugging, and sensor interfacing.</li>
+        <li>Wireless IoT device nodes transmitting telemetry data streams.</li>
+        <li>Hardware automation routines for real-time sensor processing.</li>
+        <li>Flexible lab environment for testing hardware-software integration concepts.</li>
       </ul>
       <br/>
       <div align="center">
@@ -217,15 +288,15 @@ graph TD
 </table>
 
 <p align="center">
-  <i>⚡ More projects launching soon as research and development progresses.</i>
+  <i>⚡ Additional hardware and AI projects currently under active R&D.</i>
 </p>
 
 <br/>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-<!-- SECTION 6: EXPERIENCE -->
-## `> experience`
+<!-- SECTION 6: INDUSTRY EXPERIENCE -->
+## `>_ industry.exp`
 
 <table>
   <tr>
@@ -233,18 +304,18 @@ graph TD
       <h3 align="center">📡 BSNL</h3>
       <p align="center"><b>Industrial Internship Experience</b></p>
       <ul>
-        <li>Explored telecommunication network architecture and signal routing protocols.</li>
-        <li>Gained practical insights into communication systems infrastructure and operations.</li>
-        <li>Studied real-world data transmission pathways and telecom hardware systems.</li>
+        <li>Explored telecommunication network architecture, switching centers, and signal routing.</li>
+        <li>Gained practical understanding of communication systems infrastructure and network protocols.</li>
+        <li>Studied real-world data transmission pathways and telecom hardware setups.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">⚙️ MICROSUN Technology</h3>
       <p align="center"><b>Engineering Internship Experience</b></p>
       <ul>
-        <li>Acquired direct exposure to industrial technology workflows and engineering practices.</li>
-        <li>Observed practical implementation of electronics and hardware automation modules.</li>
-        <li>Participated in technical discussions and engineering problem-solving sessions.</li>
+        <li>Obtained direct industrial exposure to engineering workflows and technology implementation.</li>
+        <li>Observed hardware automation modules and practical electronics design workflows.</li>
+        <li>Participated in technical problem-solving sessions with practicing engineers.</li>
       </ul>
     </td>
   </tr>
@@ -255,31 +326,31 @@ graph TD
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 <!-- SECTION 7: CERTIFICATIONS -->
-## `> certifications`
+## `>_ credentials`
 
 <div align="center">
 
 <table>
   <tr>
     <td align="center" width="20%">
-      <img src="https://img.shields.io/badge/NPTEL-Certified-00E5FF?style=for-the-badge&logo=googleclassroom&logoColor=black" alt="NPTEL"/><br/>
+      <img src="https://img.shields.io/badge/NPTEL-Certified-00F0FF?style=for-the-badge&logo=googleclassroom&logoColor=black" alt="NPTEL"/><br/>
       <small>Academic Excellence</small>
     </td>
     <td align="center" width="20%">
       <img src="https://img.shields.io/badge/Salesforce-Certified-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white" alt="Salesforce"/><br/>
-      <small>Cloud & Systems</small>
+      <small>Cloud Systems</small>
     </td>
     <td align="center" width="20%">
       <img src="https://img.shields.io/badge/Java-Proficient-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/><br/>
-      <small>Software Engineering</small>
+      <small>Software Core</small>
     </td>
     <td align="center" width="20%">
       <img src="https://img.shields.io/badge/Python-Certified-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/><br/>
       <small>Data & Automation</small>
     </td>
     <td align="center" width="20%">
-      <img src="https://img.shields.io/badge/Data_Analysis-Certified-9C27FF?style=for-the-badge&logo=pandas&logoColor=white" alt="Data Analysis"/><br/>
-      <small>Analytics & ML</small>
+      <img src="https://img.shields.io/badge/Data_Analysis-Certified-B026FF?style=for-the-badge&logo=pandas&logoColor=white" alt="Data Analysis"/><br/>
+      <small>Analytics Core</small>
     </td>
   </tr>
 </table>
@@ -291,24 +362,24 @@ graph TD
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 <!-- SECTION 8: HACKATHONS & ACHIEVEMENTS -->
-## `> hackathons.achievements`
+## `>_ achievements`
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">💡 HACKATHONS & INNOVATION</h3>
       <ul>
-        <li><b>Smart India Hackathon (SIH) Participant:</b> Developed technology-driven solutions targeted at solving pressing national infrastructure and societal challenges.</li>
-        <li><b>Liro 2026 Participant:</b> Created sustainable engineering concepts fusing hardware intelligence and environmental awareness.</li>
-        <li><b>Impact Focus:</b> Building scalable, practical solutions at the boundary of hardware and software.</li>
+        <li><b>Smart India Hackathon (SIH) Participant:</b> Developed tech-driven solutions targeted at addressing national-level real-world problems.</li>
+        <li><b>Liro 2026 Participant:</b> Built sustainable engineering concepts integrating smart technology and environmental awareness.</li>
+        <li><b>Focus:</b> Deploying high-impact, real-world solutions combining hardware, IoT, and software.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">🏆 ACHIEVEMENTS & LEADERSHIP</h3>
+      <h3 align="center">🏆 LEADERSHIP & ACTIVITIES</h3>
       <ul>
         <li><b>Sports Teams:</b> Competitive player representing in Handball and Kabaddi tournaments.</li>
-        <li><b>Electronics & Communication Club:</b> Active contributing member engaging in club workshops and projects.</li>
-        <li><b>Technical Events:</b> Regular participant in collegiate technical symposiums and hardware innovation challenges.</li>
+        <li><b>Electronics & Communication Club:</b> Active contributing member organizing and participating in technical activities.</li>
+        <li><b>Technical Events:</b> Regular participant in collegiate symposiums and engineering challenges.</li>
       </ul>
     </td>
   </tr>
@@ -318,19 +389,19 @@ graph TD
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-<!-- SECTION 9: CURRENTLY LEARNING -->
-## `> currently.exploring`
+<!-- SECTION 9: CURRENTLY EXPLORING -->
+## `>_ learning.log`
 
 ```javascript
-const currentFocus = {
-  ai: "Deepening ML concepts & predictive modeling for edge devices",
-  embedded: "Advanced microcontroller architectures & RTOS fundamentals",
-  iot: "Wireless sensor network protocols (LoRaWAN, MQTT, Zigbee)",
-  vlsi: "Digital circuit design & HDL hardware description languages",
-  webDev: "Building responsive dashboards & full-stack API integration",
+const activeLearningLog = {
+  ai          : "Deepening ML concepts & predictive modeling for edge devices",
+  embedded    : "Advanced microcontroller architectures & RTOS fundamentals",
+  iot         : "Wireless sensor network protocols (LoRaWAN, MQTT, Zigbee)",
+  vlsi        : "Digital circuit design & HDL hardware description languages",
+  webDev      : "Building responsive dashboards & full-stack API integration",
   dataAnalysis: "Extracting actionable insights from agricultural datasets",
-  smartAgri: "Precision farming automation & sensor fusion algorithms",
-  electronics: "High-frequency signal processing & PCB design principles"
+  smartAgri   : "Precision farming automation & sensor fusion algorithms",
+  electronics : "High-frequency signal processing & PCB design principles"
 };
 ```
 
@@ -338,12 +409,12 @@ const currentFocus = {
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-<!-- SECTION 10: BUILDING BEYOND CODE -->
-## `> building.beyond.code`
+<!-- SECTION 10: THE ENTREPRENEURIAL VISION -->
+## `>_ vision.core`
 
 <div align="center">
 
-### 🚀 THE ENTREPRENEURIAL VISION
+### 🚀 THE ENTREPRENEURIAL ROADMAP
 
 > *"I don't want to build technology just for the sake of building projects. My goal is to create practical solutions that solve real problems and eventually build my own technology-driven company."*
 
@@ -353,13 +424,13 @@ const currentFocus = {
 
 ```mermaid
 graph TD
-    classDef tech fill:#0D1117,stroke:#00E5FF,stroke-width:2px,color:#00E5FF;
-    classDef field fill:#0D1117,stroke:#9C27FF,stroke-width:2px,color:#9C27FF;
-    classDef impact fill:#1F1636,stroke:#00E5FF,stroke-width:3px,color:#00E5FF;
-    classDef startup fill:#2A0845,stroke:#9C27FF,stroke-width:3px,color:#FFFFFF;
+    classDef tech fill:#0D1117,stroke:#00F0FF,stroke-width:2px,color:#00F0FF;
+    classDef field fill:#0D1117,stroke:#B026FF,stroke-width:2px,color:#B026FF;
+    classDef impact fill:#1F1636,stroke:#FF2D95,stroke-width:3px,color:#FF2D95;
+    classDef startup fill:#2A0845,stroke:#39FF14,stroke-width:3px,color:#FFFFFF;
 
-    A[Electronics] ::: tech
-    B[AI & Machine Learning] ::: tech
+    A[Electronics & VLSI] ::: tech
+    B[AI & Data Analysis] ::: tech
     C[Embedded Systems] ::: tech
     D[IoT & Automation] ::: tech
 
@@ -382,30 +453,32 @@ graph TD
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-<!-- SECTION 11: GITHUB ACTIVITY -->
-## `> github.activity`
+<!-- SECTION 11: GITHUB TELEMETRY -->
+## `>_ github.telemetry`
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=sabeeshvar&theme=nord&margin-w=15&margin-h=15" alt="Profile Trophies" />
+<!-- TROPHIES -->
+<img src="https://github-profile-trophy.vercel.app/?username=sabeeshvar&theme=onedark&margin-w=15&margin-h=15" alt="Profile Trophies" />
 
 <br/><br/>
 
+<!-- STATS CARDS -->
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=sabeeshvar&show_icons=true&theme=dark&title_color=00E5FF&text_color=E6EDF3&icon_color=9C27FF&bg_color=0D1117&border_color=00E5FF" alt="GitHub Stats" width="100%" />
+      <img src="https://github-readme-stats.vercel.app/api?username=sabeeshvar&show_icons=true&theme=dark&title_color=00F0FF&text_color=E6EDF3&icon_color=B026FF&bg_color=0D1117&border_color=00F0FF" alt="GitHub Stats" width="100%" />
     </td>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sabeeshvar&layout=compact&theme=dark&title_color=00E5FF&text_color=E6EDF3&bg_color=0D1117&border_color=00E5FF" alt="Top Languages" width="100%" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sabeeshvar&layout=compact&theme=dark&title_color=00F0FF&text_color=E6EDF3&bg_color=0D1117&border_color=00F0FF" alt="Top Languages" width="100%" />
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=sabeeshvar&theme=black-ice&ring=00E5FF&fire=9C27FF&currStreakNum=00E5FF" alt="Streak Stats" width="100%" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=sabeeshvar&theme=black-ice&ring=00F0FF&fire=FF2D95&currStreakNum=00F0FF" alt="Streak Stats" width="100%" />
     </td>
     <td width="50%" align="center">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=sabeeshvar&theme=react-dark&bg_color=0D1117&color=00E5FF&line=9C27FF&point=00E5FF" alt="Activity Graph" width="100%" />
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=sabeeshvar&theme=react-dark&bg_color=0D1117&color=00F0FF&line=B026FF&point=FF2D95" alt="Activity Graph" width="100%" />
     </td>
   </tr>
 </table>
@@ -416,8 +489,8 @@ graph TD
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-<!-- SECTION 12: CONNECT WITH ME -->
-## `> connect.with.me`
+<!-- SECTION 12: CONNECT INTERFACE -->
+## `>_ connect.interface`
 
 <div align="center">
 
@@ -425,10 +498,10 @@ graph TD
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-000000?style=for-the-badge&logo=googlechrome&logoColor=00F0FF)](#)
 [![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sabeeshvar)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
 [![Email](https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white)](#)
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-000000?style=for-the-badge&logo=googlechrome&logoColor=00E5FF)](#)
 
 <br/><br/>
 
@@ -436,12 +509,12 @@ graph TD
 
 <br/><br/>
 
-<!-- FOOTER BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:9C27FF,100:00E5FF&height=180&section=footer&text=Engineering%20%C3%97%20Intelligence%20%C3%97%20Impact&fontSize=26&fontColor=ffffff&fontAlignY=40&desc=An%20engineer's%20digital%20identity%20%E2%80%94%20not%20just%20a%20GitHub%20README.&descSize=14&descAlignY=65" width="100%" alt="Footer Banner" />
+<!-- FOOTER VENOM BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,40:B026FF,75:FF2D95,100:00F0FF&height=180&section=footer&text=Engineering%20%C3%97%20Intelligence%20%C3%97%20Impact&fontSize=26&fontColor=ffffff&fontAlignY=40&desc=An%20engineer's%20digital%20identity%20%E2%80%94%20built%20for%20the%20future.&descSize=14&descAlignY=65" width="100%" alt="Footer Banner" />
 
 <br/><br/>
 
 <!-- VISITOR COUNTER -->
-![Profile Views](https://komarev.com/ghpvc/?username=sabeeshvar&color=00E5FF&style=flat-square&label=PROFILE+VIEWS)
+![Profile Views](https://komarev.com/ghpvc/?username=sabeeshvar&color=00F0FF&style=flat-square&label=PROFILE+VIEWS)
 
 </div>
