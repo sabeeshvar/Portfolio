@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HERO BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=280&color=gradient&customColorList=12,15,20,24&section=header&text=SABEESHVAR%20M.&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=ECE%20ENGINEER%20%7C%20AI%20BUILDER%20%7C%20EMBEDDED%20ENTHUSIAST&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=280&color=gradient&customColorList=12,15,20,24&section=header&text=SABEESHVAR%20M.&fontSize=48&fontColor=ffffff&fontAlignY=35&desc=ECE%20ENGINEER%20%7C%20AI%20BUILDER%20%7C%20EMBEDDED%20ENTHUSIAST&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
 
 <br/>
 
@@ -103,7 +103,7 @@ identity:
 <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/rainbow.gif" width="100%" height="3px"/>
 </div>
 
-<!-- SECTION 3: TECH ARSENAL -->
+<!-- SECTION 3: TECH STACK -->
 ## 🛠️ tech.stack()
 
 <div align="center">
